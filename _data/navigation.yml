@@ -20,7 +20,7 @@ main:
   - title: "Portfolio"
     url: /portfolio/
         
-  - title: "Blog Posts"
+  - title: "Research Positions"
     url: /year-archive/
     
   - title: "CV"
@@ -29,5 +29,8 @@ main:
   # - title: "CV"
   #   url: /cv-json/
     
-  - title: "Guide"
-    url: /markdown/
+  - title: "Press Releases"
+   url: /markdown/
+
+  - title: "Outreach"
+   url: /markdown/
