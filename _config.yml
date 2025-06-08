@@ -24,11 +24,11 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Clara Dehman"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  pronouns         : "she/her"  
+  bio              : "Juan de la Cierva Fellow"
   location         : "Spain"
   employer         : "University of Alicante"
-  uri              : "https://cvnet.cpd.ua.es/curriculum-breve/es/dehman-clara/697657"
+  uri              : #"https://cvnet.cpd.ua.es/curriculum-breve/es/dehman-clara/697657"
   email            : "clara.dehman@ua.es" 
 
   # Academic websites
