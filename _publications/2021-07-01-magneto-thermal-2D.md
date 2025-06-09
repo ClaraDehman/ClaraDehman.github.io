@@ -5,7 +5,7 @@ category: published
 permalink: /publication/2021-magneto-thermal-fvm
 excerpt: 'A finite-volume code for simulating neutron star magnetic field evolution including Ohmic, Hall, and ambipolar effects.'
 date: 2021-07-01
-venue: 'Computer Physics Communications 265, 108001'
+venue: 'Comput. Phys. Commun. 265, 108001'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S0010465521001132'
 arxivurl: 'https://arxiv.org/abs/2104.08001'
 doi: 'https://doi.org/10.1016/j.cpc.2021.108001'
