@@ -1,6 +1,6 @@
 <p>
   {% if post.citation %}
-    <strong>{{ post.citation | split: '.' | first }}.</strong>
+    <strong>{{ post.citation | split: '.' | first }}</strong>.
   {% endif %}
   {% if post.authors %}{{ post.authors | markdownify | remove: '<p>' | remove: '</p>' }}, {% endif %}
   <strong>{{ post.title }}</strong>, <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}.
@@ -8,5 +8,4 @@
   {% if post.arxivurl %} | <a href="{{ post.arxivurl }}">arXiv</a>{% endif %}
   {% if post.doi %} | <a href="{{ post.doi }}">DOI</a>{% endif %}
 </p>
-
 
