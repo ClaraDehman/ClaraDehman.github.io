@@ -1,20 +1,13 @@
 ---
-title: "Teaching experience 1"
+title: "Introduction to Modelling in Physics"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+permalink: /teaching/2024-modeling-physics
+venue: "Dept. of Applied Physics, Univ. of Alicante"
+date: 2024
+location: "Alicante, Spain"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+**Instructor**, Dept. of Applied Physics, Univ. of Alicante, ES (_Sept–Oct 2024_)  
+*Introduction to Modelling in Physics* · **22.5 hr** · 47 BSc students  
+**Duties:** Supervised labs (Python coding assistance, troubleshooting, evaluation).
