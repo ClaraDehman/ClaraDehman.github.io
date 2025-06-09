@@ -3,10 +3,9 @@ title: "Nuclear and Particle Physics"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2024-nuclear-particle
-venue: "Dept. of Applied Physics, Univ. of Alicante, Spain"
-date: 2024-10-01
 location: "Alicante, Spain"
 ---
 
-Instructor, *Nuclear and Particle Physics* — **27 hr** — 56 BSc students  
-**Duties:** Designed & led labs (Python coding guidance, issue resolution, assessment).
+Instructor — **54 hr** — 112 BSc students  
+*Undergraduate course, Dept. of Applied Physics, Univ. of Alicante, Spain, 2024 & 2025*  
+Designed & led labs (Python coding guidance, issue resolution, assessment).
