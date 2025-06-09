@@ -10,5 +10,5 @@ paperurl: '/files/dehman2023b.pdf'
 arxivurl: 'https://arxiv.org/abs/2301.02261'
 doi: 'https://doi.org/10.1093/mnrasl/slad003'
 authors: "<strong>11.</strong> <strong><u>C. Dehman</u></strong>, J.A. Pons, D. Viganò, N. Rea"
-citation: '11. <strong>C. Dehman</strong>, J.A. Pons, D. Viganò & N. Rea (2023). <small><strong>How bright can old magnetars be? Assessing the impact of magnetized envelopes and field topology on neutron star cooling</strong></small>. <em>MNRAS Letters <b>520</b>, L42</em>. (<a href="https://arxiv.org/abs/2301.02261">arXiv</a>, <a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.520L..42D/abstract">ADS</a>, <a href="https://doi.org/10.1093/mnrasl/slad003">DOI</a>)'
+citation: '<strong>C. Dehman</strong>, J.A. Pons, D. Viganò & N. Rea (2023). <small><strong>How bright can old magnetars be? Assessing the impact of magnetized envelopes and field topology on neutron star cooling</strong></small>. <em>MNRAS Letters <b>520</b>, L42</em>. (<a href="https://arxiv.org/abs/2301.02261">arXiv</a>, <a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.520L..42D/abstract">ADS</a>, <a href="https://doi.org/10.1093/mnrasl/slad003">DOI</a>)'
 ---
