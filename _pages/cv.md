@@ -40,20 +40,48 @@ Education
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**Juan de la Cierva Postdoctoral Fellow** — University of Alicante, Spain _(Mar 2024 – Jan 2027)_  
+*Project:* Examining the role of chiral magnetic instability in the origin of large-scale magnetic fields in magnetars  
+*Advisor:* Prof. José Pons
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+---
+
+**Transitional Postdoctoral Researcher** — Institute of Space Sciences (ICE-CSIC), Barcelona, Spain _(Nov 2023 – Feb 2024)_  
+*Project:* 3D MHD modeling of neutron star magnetic field evolution, compared with observational data  
+*Advisor:* Prof. Nanda Rea
+
+---
+
+**Visiting PhD Fellow** — NORDITA, Stockholm, Sweden _(Apr – Dec 2023)_  
+*Project:* Role of magnetic helicity in inverse cascade behavior in neutron star crusts  
+*Advisor:* Prof. Axel Brandenburg
+
+---
+
+**Doctoral Researcher** — Theoretical Astrophysics Group, ICE-CSIC, Barcelona, Spain _(Nov 2019 – Nov 2023)_  
+*Project:* Magneto-thermal evolution of isolated neutron stars; led development of the 3D code *MATINS*  
+*Advisors:* Prof. José A. Pons, Prof. Nanda Rea, Dr. Daniele Viganò
+
+---
+
+**Graduate Researcher** — Theoretical Nuclear Physics, University of Barcelona, Spain _(Feb – Sept 2019)_  
+*Grade:* 10/10 + *Matrícula de Honor*  
+*Project:* Thermal properties of the BCPM energy density functional for neutron star mergers  
+*Advisors:* Prof. Artur Polls, Prof. Xavier Viñas, Prof. Mario Centelles
+
+---
+
+**Intern** — Theoretical Nuclear Physics, LPC Caen, France _(Sept 2018 – Jan 2019)_  
+*Project:* Metamodeling nuclear equations of state for neutron star mass-radius constraints  
+*Advisor:* Prof. Francesca Gulminelli
+
+---
+
+**Intern** — Experimental Nuclear Physics, INFN Legnaro National Laboratories, Italy _(Mar – Jun 2018)_  
+*Focus:* Measuring fusion cross section of ${}^{28}$Si + ${}^{100}$Mo to probe many-body quantum tunneling  
+*Advisors:* Prof. Giovanna Montagnoli, Prof. Alberto Stefanini
+
   
 
 Publications
