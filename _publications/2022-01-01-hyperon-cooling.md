@@ -6,7 +6,7 @@ permalink: /publication/2022-hyperon-cooling
 excerpt: 'Study of thermal evolution in neutron stars with hyperons, accounting for fast cooling and internal heating mechanisms.'
 date: 2022-01-01
 venue: 'MNRAS 509, 2609'
-paperurl: 'https://doi.org/10.1093/mnras/stab3126'
+paperurl: '/files/anzuini2020'
 arxivurl: 'https://arxiv.org/abs/2110.14039'
 doi: 'https://doi.org/10.1093/mnras/stab3126'
 authors: "<strong>6.</strong> F. Anzuini, A. Melatos, <strong><u>C. Dehman</u></strong> et al."
