@@ -6,7 +6,7 @@ permalink: /publication/2022-luminosity-degeneracy
 excerpt: 'Analysis of the thermal luminosity behavior of magnetized neutron stars, with and without hyperon cores, using evolutionary simulations.'
 date: 2022-07-01
 venue: 'MNRAS 515, 3014'
-paperurl: 'https://doi.org/10.1093/mnras/stac1353'
+paperurl: '/files/anzuini2021.pdf'
 arxivurl: 'https://arxiv.org/abs/2205.14793'
 doi: 'https://doi.org/10.1093/mnras/stac1353'
 authors: "<strong>7.</strong> F. Anzuini, A. Melatos, <strong><u>C. Dehman</u></strong> et al."

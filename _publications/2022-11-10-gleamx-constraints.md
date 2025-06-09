@@ -6,7 +6,7 @@ permalink: /publication/2022-gleamx-constraints
 excerpt: 'Multi-wavelength analysis and magneto-thermal modeling of the long-period radio transient GLEAM-X J162759.5−523504.3 to investigate its magnetar-like nature.'
 date: 2022-11-10
 venue: 'ApJ 940, 72'
-paperurl: '/files/rea2022'
+paperurl: '/files/rea2022.pdf'
 arxivurl: 'https://arxiv.org/abs/2210.01903'
 doi: 'https://doi.org/10.3847/1538-4357/ac97ea'
 authors: "<strong>8.</strong> N. Rea, F. Coti Zelati, <strong><u>C. Dehman</u></strong> et al."

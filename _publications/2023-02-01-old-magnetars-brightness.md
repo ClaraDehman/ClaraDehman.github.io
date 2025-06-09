@@ -6,7 +6,7 @@ permalink: /publication/2023-old-magnetars-brightness
 excerpt: 'Study of thermal evolution in old magnetars, exploring how magnetic field topology and envelope composition affect their luminosity.'
 date: 2023-02-01
 venue: 'MNRAS Letters 520, L42'
-paperurl: '/files/dehman2023b'
+paperurl: '/files/dehman2023b.pdf'
 arxivurl: 'https://arxiv.org/abs/2301.02261'
 doi: 'https://doi.org/10.1093/mnrasl/slad003'
 authors: "<strong>11.</strong> <strong><u>C. Dehman</u></strong>, J.A. Pons, D. Viganò, N. Rea"

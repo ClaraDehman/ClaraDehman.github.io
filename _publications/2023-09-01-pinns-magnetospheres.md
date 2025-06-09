@@ -6,7 +6,7 @@ permalink: /publication/2023-pinns-magnetospheres
 excerpt: 'Application of physics-informed neural networks (PINNs) to model force-free magnetospheres around neutron stars, bridging machine learning and astrophysical modeling.'
 date: 2023-09-01
 venue: 'MNRAS 524, 32'
-paperurl: 'https://doi.org/10.1093/mnras/stad1810'
+paperurl: '/files/urban2023.pdf'
 arxivurl: 'https://arxiv.org/abs/2303.11968'
 doi: 'https://doi.org/10.1093/mnras/stad1810'
 authors: "<strong>13.</strong> J. Urbàn, P. Stefanou, <strong><u>C. Dehman</u></strong>, J.A. Pons"
