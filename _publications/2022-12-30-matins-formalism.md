@@ -6,7 +6,7 @@ permalink: /publication/2022-matins-formalism
 excerpt: 'Presentation of the MATINS code: a 3D finite-volume solver for magnetic field evolution in isolated neutron stars, including full magnetic formalism.'
 date: 2022-12-30
 venue: 'MNRAS 518, 1222'
-paperurl: 'https://doi.org/10.1093/mnras/stac2761'
+paperurl: '/files/dehman2023a'
 arxivurl: 'https://arxiv.org/abs/2209.12920'
 doi: 'https://doi.org/10.1093/mnras/stac2761'
 authors: "<strong>9.</strong> <strong><u>C. Dehman</u></strong>, D. Viganò, J.A. Pons, N. Rea"
