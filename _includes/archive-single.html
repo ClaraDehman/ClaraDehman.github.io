@@ -1,5 +1,5 @@
 <p>
-  {% if post.authors %}{{ post.authors | escape_once | replace: '&lt;u&gt;', '<u>' | replace: '&lt;/u&gt;', '</u>' }}, {% endif %}
+  {% if post.authors %}{{ post.authors | escape_once | replace: '&lt;u&gt;', '<strong>' | replace: '&lt;/u&gt;', '</strong>' }}, {% endif %}
   <strong>{{ post.title }}</strong>, <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}.
   {% if post.paperurl %}<a href="{{ post.paperurl }}">PDF</a>{% endif %}
   {% if post.arxivurl %} | <a href="{{ post.arxivurl }}">arXiv</a>{% endif %}
