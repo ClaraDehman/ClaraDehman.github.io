@@ -230,7 +230,7 @@ collections:
     permalink: /:collection/:path/
 
 
-# These settings control how pages and collections are included in the site
+## These settings control how pages and collections are included in the site
 defaults:
   # _posts
   - scope:
@@ -243,6 +243,7 @@ defaults:
       comments: true
       share: true
       related: true
+
   # _pages
   - scope:
       path: ""
@@ -250,6 +251,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+
   # _teaching
   - scope:
       path: ""
@@ -259,6 +261,9 @@ defaults:
       author_profile: true
       share: true
       comments: true
+      sidebar:
+        nav: none
+
   # _publications
   - scope:
       path: ""
@@ -268,6 +273,9 @@ defaults:
       author_profile: true
       share: true
       comments: true
+      sidebar:
+        nav: none
+
   # _portfolio
   - scope:
       path: ""
@@ -277,6 +285,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
+
   # _talks
   - scope:
       path: ""
@@ -285,6 +294,8 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+      sidebar:
+        nav: none
 
 
 # Sass/SCSS
