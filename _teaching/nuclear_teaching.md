@@ -6,6 +6,7 @@ permalink: /teaching/2024-nuclear-particle
 location: "Alicante, Spain"
 ---
 
-Instructor — 2 editions (2024 & 2025) — **54 hr** — 112 students 
-*Undergraduate course, Dept. of Applied Physics, Univ. of Alicante, Spain*  
+Instructor — 2 editions (2024 & 2025) — **54 hr** — 112 students <br>
+*Undergraduate course, Dept. of Applied Physics, Univ. of Alicante, Spain*<br>
 Designed & led labs (Python coding guidance, issue resolution, assessment).
+
