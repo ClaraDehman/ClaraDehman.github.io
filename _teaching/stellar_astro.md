@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2025-stellar-astrophysics
 venue: ""
-date: 
+date: 2025
 location: "Alicante, Spain"
 ---
 
