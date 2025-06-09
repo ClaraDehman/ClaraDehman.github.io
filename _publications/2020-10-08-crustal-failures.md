@@ -6,7 +6,7 @@ permalink: /publication/2020-crustal-failures
 excerpt: 'Study of starquakes and their frequency in young magnetars using 3D magneto-thermal simulations.'
 date: 2020-10-08
 venue: 'ApJL 902 L32'
-paperurl: 'https://iopscience.iop.org/article/10.3847/2041-8213/abbda9'
+paperurl: '/files/Dehman_2020_ApJL_902_L32.pdf'
 arxivurl: 'https://arxiv.org/abs/2010.00617'
 doi: 'https://doi.org/10.3847/2041-8213/abbda9'
 authors: "<strong>2.</strong> <strong><u>C. Dehman</u></strong>, D. Viganò, N. Rea et al."
