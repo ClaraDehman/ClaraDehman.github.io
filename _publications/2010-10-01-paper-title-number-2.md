@@ -1,14 +1,13 @@
 ---
-title: "Paper Title Number 2"
+title: "A very young radio-loud magnetar"
 collection: publications
-category: manuscripts
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+category: published
+permalink: /publication/2020-radio-loud-magnetar
+excerpt: 'Discovery and analysis of a very young magnetar with radio emission.'
+date: 2020-04-08
+venue: 'ApJL 896 L30'
+paperurl: 'https://iopscience.iop.org/article/10.3847/2041-8213/ab9742'
+arxivurl: 'https://arxiv.org/abs/2004.04083'
+doi: 'https://doi.org/10.3847/2041-8213/ab9742'
+citation: '<strong>1.</strong> P. Esposito, N. Rea, A. Borghese et al. (2020). <small><strong>A very young radio-loud magnetar</strong></small>. <em>ApJL <b>896</b> L30</em>. (<a href="https://arxiv.org/abs/2004.04083">arXiv</a>, <a href="https://ui.adsabs.harvard.edu/abs/2020ApJ...896L..30E/abstract">ADS</a>, <a href="https://doi.org/10.3847/2041-8213/ab9742">DOI</a>)'
 ---
-
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
