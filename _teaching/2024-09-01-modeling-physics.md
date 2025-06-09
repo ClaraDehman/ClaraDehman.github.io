@@ -8,6 +8,3 @@ date: 2024
 location: "Alicante, Spain"
 ---
 
-**Instructor**, Dept. of Applied Physics, Univ. of Alicante, ES (_Sept–Oct 2024_)  
-*Introduction to Modelling in Physics* · **22.5 hr** · 47 BSc students  
-**Duties:** Supervised labs (Python coding assistance, troubleshooting, evaluation).
