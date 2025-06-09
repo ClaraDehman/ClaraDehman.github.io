@@ -13,9 +13,31 @@ You can download the full version of [my CV](/files/ClaraDehman_CV.pdf).
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+**Ph.D. in Physics** — Autonomous University of Barcelona, Spain _(Nov 2023)_  
+*Thesis Title:* *Unveiling the Physics of Neutron Stars: A 3D Expedition into Magneto-Thermal Evolution in Isolated Neutron Stars with “MATINS”*  
+[arXiv:2405.00133](https://arxiv.org/pdf/2405.00133)  
+*Honors:* Cum Laude, International Mention, Excellent (A⁺), SEA Thesis Award 2024, IEEC Best Thesis Award 2024
+
+---
+
+**International Joint Master in Theoretical Nuclear Physics** — Erasmus Mundus NucPhys Program _(Sept 2019)_  
+**Degrees Awarded:**
+
+- *Laurea Magistrale in Fisica*, University of Padova, Italy  
+  *Honors:* 110/100 + *Cum Laude*
+- *Master de Sciences*, Université de Caen Normandy, France  
+  *Honors:* Very Good
+- *Máster Universitario Erasmus Mundus en Física Nuclear*,  
+  Autonomous University of Madrid, Complutense University of Madrid, University of Barcelona, University of Salamanca, and University of Seville, Spain  
+  *Thesis Title:* *Hot Neutron Rich Nuclear Matter Studied with the BCPM Nuclear Energy Density Functional*  
+  *Honors:* 9.53/10 + *Matrícula de Honor*
+
+---
+
+**Bachelor’s Degree in Physics** — Lebanese University, Faculty of Sciences III, Tripoli, Lebanon _(Aug 2017)_  
+*Honors:* 1st in Physics Department  
+*Grade:* 79.64/100
+
 
 Work experience
 ======
@@ -34,14 +56,6 @@ Work experience
   * Duties included: Tagging issues
   * Supervisor: Professor Git
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
 Publications
 ======
@@ -61,6 +75,3 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
