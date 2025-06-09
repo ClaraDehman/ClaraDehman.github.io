@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Dr Clara Dehman – Astrophysicist & Computational Physicist"
+title: "Dr Clara Dehman – Astrophysicist"
 author_profile: true
 redirect_from: 
   - /about/
