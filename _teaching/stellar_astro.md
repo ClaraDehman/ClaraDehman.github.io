@@ -4,10 +4,9 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2025-stellar-astrophysics
 venue: "Dept. of Applied Physics, Univ. of Alicante, Spain"
-date: 2025-01-01
+date: 2025
 location: "Alicante, Spain"
 ---
 
-Lecturer, Dept. of Applied Physics, Univ. of Alicante, ES (Jan–Mar 2025)  
-*Stellar Astrophysics* — **12 hr** — 14 BSc students  
+Lecturer & Instructor, *Stellar Astrophysics* — **12 hr** — 14 BSc students  
 **Duties:** Taught theoretical lectures & led labs (Python coding, troubleshooting, grading).
