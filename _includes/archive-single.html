@@ -1,13 +1,6 @@
 <p>
-  {% if post.citation %}
-    <strong>{{ post.citation | split: '.' | first }}</strong>.
-    {% assign citation_rest = post.citation | split: '.' | slice: 1, 10 | join: '.' %}
-    {{ citation_rest | markdownify | remove: '<p>' | remove: '</p>' }}
-  {% else %}
-    {% if post.authors %}{{ post.authors | markdownify | remove: '<p>' | remove: '</p>' }}, {% endif %}
-    <strong>{{ post.title }}</strong>, <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}.
-  {% endif %}
-
+  {% if post.authors %}{{ post.authors | markdownify | remove: '<p>' | remove: '</p>' }}, {% endif %}
+  <strong>{{ post.title }}</strong>, <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}.
   {% if post.paperurl %}<a href="{{ post.paperurl }}">PDF</a>{% endif %}
   {% if post.arxivurl %} | <a href="{{ post.arxivurl }}">arXiv</a>{% endif %}
   {% if post.doi %} | <a href="{{ post.doi }}">DOI</a>{% endif %}
