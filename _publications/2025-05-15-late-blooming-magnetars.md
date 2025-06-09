@@ -5,7 +5,7 @@ category: submitted
 permalink: /publication/2025-late-blooming-magnetars
 excerpt: 'Proposal that ultra-long period magnetars emerge after long thermal dormancy, supported by magneto-thermal simulations of aging neutron stars.'
 date: 2025-05-15
-venue: 'Submitted for publication (equal contributions by first two authors; corresponding author: <strong>C. Dehman</strong>)'
+venue: 'Submitted for publication (equal contributions by first two authors; CA: <strong><u>C. Dehman</u></strong>)'
 paperurl: ''
 arxivurl: 'https://arxiv.org/abs/2505.05373'
 doi: ''
