@@ -6,7 +6,7 @@ permalink: /publication/2024-matins-thermal-lightcurves
 excerpt: 'Extension of the MATINS 3D code to model neutron star thermal evolution and predict X-ray light curves under realistic magnetic and thermal conditions.'
 date: 2024-06-01
 venue: 'MNRAS 533, 201'
-paperurl: 'https://doi.org/10.1093/mnras/stae1749'
+paperurl: '/files/ascenzi2024.pdf'
 arxivurl: 'https://arxiv.org/abs/2401.15711'
 doi: 'https://doi.org/10.1093/mnras/stae1749'
 authors: "<strong>16.</strong> S. Ascenzi, D. Viganò, <strong><u>C. Dehman</u></strong>, J.A. Pons, N. Rea, R. Perna"

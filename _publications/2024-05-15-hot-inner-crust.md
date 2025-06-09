@@ -6,7 +6,7 @@ permalink: /publication/2024-hot-inner-crust
 excerpt: 'Study on how the thermal properties of the hot inner crust influence the structure of compact stars at finite temperature.'
 date: 2024-05-15
 venue: 'A&A 687, A236'
-paperurl: 'https://doi.org/10.1051/0004-6361/202450305'
+paperurl: '/files/dehman2024.pdf'
 arxivurl: 'https://arxiv.org/abs/2401.16957'
 doi: 'https://doi.org/10.1051/0004-6361/202450305'
 authors: "<strong>15.</strong> <strong><u>C. Dehman</u></strong>, M. Centelles, X. Viñas"

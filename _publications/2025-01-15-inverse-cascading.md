@@ -6,7 +6,7 @@ permalink: /publication/2025-inverse-cascading
 excerpt: 'Investigation of inverse magnetic energy cascading in neutron star crusts through 3D simulations, assessing its physical viability and implications.'
 date: 2025-01-15
 venue: 'A&A 694, A39'
-paperurl: 'https://doi.org/10.1051/0004-6361/202451904'
+paperurl: '/files/dehman2025.pdf'
 arxivurl: 'https://arxiv.org/abs/2408.08819'
 doi: 'https://doi.org/10.1051/0004-6361/202451904'
 authors: "<strong>17. </strong> <strong><u>C. Dehman</u></strong>, A. Brandenburg"

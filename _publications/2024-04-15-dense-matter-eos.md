@@ -6,7 +6,7 @@ permalink: /publication/2024-dense-matter-eos
 excerpt: 'Observational and theoretical constraints on the equation of state of dense matter from a population of young, cold isolated neutron stars.'
 date: 2024-04-15
 venue: 'Nature Astronomy 8, 1020–1030 (<u>these authors contributed equally to this work</u>)'
-paperurl: 'https://www.nature.com/articles/s41550-024-02291-y'
+paperurl: '/files/marino2024.pdf'
 arxivurl: 'https://arxiv.org/abs/2404.05371'
 doi: 'https://doi.org/10.1038/s41550-024-02291-y'
 authors: "<strong>14.</strong> A. Marino<sup>*</sup>, <strong><u>C. Dehman</u></strong><sup>*</sup>, K. Kovlakas<sup>*</sup>, N. Rea<sup>*</sup> et al."
