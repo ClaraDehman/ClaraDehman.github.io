@@ -6,7 +6,7 @@ permalink: /publication/2020-radio-loud-magnetar
 excerpt: 'Discovery and analysis of a very young magnetar with radio emission.'
 date: 2020-04-08
 venue: 'ApJL 896 L30'
-paperurl: 'https://iopscience.iop.org/article/10.3847/2041-8213/ab9742'
+paperurl: '/files/Esposito_2020_ApJL_896_L30.pdf'
 arxivurl: 'https://arxiv.org/abs/2004.04083'
 doi: 'https://doi.org/10.3847/2041-8213/ab9742'
 authors: "<strong>1.</strong> P. Esposito, N. Rea, A. Borghese et al."
