@@ -15,8 +15,7 @@ Education
 ======
 **Ph.D. in Physics** — Autonomous University of Barcelona, Spain _(Nov 2023)_  
 *Thesis Title:* *Unveiling the Physics of Neutron Stars: A 3D Expedition into Magneto-Thermal Evolution in Isolated Neutron Stars with “MATINS”*  
-[thesis.pdf](/files/thesis.pdf)
-*Honors:* Cum Laude, International Mention, Excellent (A⁺), SEA Thesis Award 2024, IEEC Best Thesis Award 2024
+*Honors:* Cum Laude, International Mention, Excellent (A⁺), SEA Thesis Award 2024, IEEC Best Thesis Award 2024 [thesis.pdf](/files/thesis.pdf)
 
 ---
 
