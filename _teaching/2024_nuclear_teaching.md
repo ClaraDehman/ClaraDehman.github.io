@@ -3,7 +3,7 @@ title: "Nuclear and Particle Physics"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2024-nuclear-particle-physics
-venue: "Dept. of Applied Physics, Univ. of Alicante, ES"
+venue: "Dept. of Applied Physics, Univ. of Alicante, Spain"
 date: 2024-10-01
 location: "Alicante, Spain"
 ---
