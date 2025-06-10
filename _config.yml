@@ -89,9 +89,9 @@ publication_category:
 # talks Category: 
 talk_category:
   invited:
-    title: 'Invited Talks & Seminars'
+    title: 'Invited Talks'
   contributed:
-    title: 'Contributed Talks & Seminars'
+    title: 'Contributed Talks'
 
 
 # Site Settings
