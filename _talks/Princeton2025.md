@@ -10,4 +10,4 @@ collection: talks
 This talk explored how chiral anomalies and magnetic helicity drive the evolution of magnetar magnetic fields, enabling the formation of the large scale magnetar field starting from only small scale structures.  
 Presented at the *Extreme Physics of Neutron Star Interiors* workshop at Princeton University, New Jersey, USA.
 
-[Download slides](/files/princeton.pdf)
+[Download slides](/files/Princeton2025.pdf)
