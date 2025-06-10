@@ -86,6 +86,14 @@ publication_category:
   thesis:
     title: 'PhD Thesis'  
 
+# talks Category: 
+ talk_category:
+   invited:
+    title: 'Invited Talks & Seminars'
+   contributed:
+    title: 'Contributed Talks & Seminars'
+
+
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
