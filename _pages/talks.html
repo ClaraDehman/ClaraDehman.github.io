@@ -11,6 +11,14 @@ author_profile: true
 
 {% endif %}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+{% for cat in site.talk_category %}
+  <h2>{{ cat[1].title }}</h2>
+  <ul>
+    {% assign cat_key = cat[0] %}
+    {% for post in site.talks reversed %}
+      {% if post.category == cat_key %}
+        {% include archive-single-talk.html %}
+      {% endif %}
+    {% endfor %}
+  </ul>
 {% endfor %}
