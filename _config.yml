@@ -76,7 +76,7 @@ author:
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
-   title: 'Books'
+    title: 'Books'
   submitted:
     title: 'Submitted'    
   press:
@@ -87,10 +87,10 @@ publication_category:
     title: 'PhD Thesis'  
 
 # talks Category: 
- talk_category:
-   invited:
+talk_category:
+  invited:
     title: 'Invited Talks & Seminars'
-   contributed:
+  contributed:
     title: 'Contributed Talks & Seminars'
 
 
