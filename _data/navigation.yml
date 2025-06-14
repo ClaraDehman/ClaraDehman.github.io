@@ -33,10 +33,10 @@ main:
   #  url: /year-archive/
 
   - title: "Press"
-   url: /press/
+    url: /press/
 
   - title: "Outreach"
-   url: /outreach/
+    url: /outreach/
     
   - title: "CV"
     url: /cv/
