@@ -1,5 +1,5 @@
 ---
-title: "Research in Computational Astrophysics"
+title: "<u>Research in Computational Astrophysics</u>"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2025-computational-astro
