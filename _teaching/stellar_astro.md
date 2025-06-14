@@ -1,5 +1,5 @@
 ---
-title: "Stellar Astrophysics"
+title: "<u>Stellar Astrophysics</u>"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2025-stellar-astrophysics
