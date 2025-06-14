@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Modelling in Physics"
+title: "<u>Introduction to Modelling in Physics</u>"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2024-modeling-physics
