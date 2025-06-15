@@ -20,7 +20,9 @@ After earning my **Bachelor’s degree in Physics** in Lebanon, I pursued advanc
 
 <!-- Beyond astrophysics, my expertise extends into **nuclear theory**. Collaborating with colleagues, I developed a **finite-temperature equation of state** critical for studying late-stage proto-neutron stars and the aftermath of binary neutron star mergers. -->
 
-Below you’ll find highlights of my **selected research projects**—each reflecting the curiosity and rigor that drive my scientific journey.
+
+
+<!-- Below you’ll find highlights of my **selected research projects**—each reflecting the curiosity and rigor that drive my scientific journey. -->
 <!-- ----->
 
 <!--### MATINS-->
