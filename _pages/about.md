@@ -1,12 +1,12 @@
 ---
 
-permalink: /
-title: "**Dr Clara Dehman – Astrophysicist**"
+permalink: "/"
+title: "Dr Clara Dehman – Astrophysicist"
 author\_profile: true
 redirect\_from:
 
-* /about/
-* /about.html
+* "/about/"
+* "/about.html"
 
 ---
 
@@ -27,4 +27,3 @@ Here you’ll find insights into my **research**, **teaching experiences**, **pu
 ### MATINS
 
 ---
-
