@@ -1,5 +1,5 @@
 ---
-title: "<u>Nuclear and Particle Physics</u>"
+title: "<span style='font-size:1.20em;'>Nuclear and Particle Physics</span>"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2024-nuclear-particle
