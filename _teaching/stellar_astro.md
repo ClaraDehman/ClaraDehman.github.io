@@ -1,5 +1,5 @@
 ---
-title: "<u>Stellar Astrophysics</u>"
+title: "<span style='font-size:1.15em;'><u>Stellar Astrophysics</u></span>"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2025-stellar-astrophysics
