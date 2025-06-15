@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Dr Clara Dehman – Astrophysicist"
+title: "Welcome to my homepage!"
 author_profile: true
 redirect_from: 
   - /about/
@@ -12,7 +12,7 @@ redirect_from:
   .highlight { color: #1f77b4; font-weight: bold; }
 </style>
 
-**<span class="blue">Welcome to my homepage!</span>**
+<!--**<span class="blue">Welcome to my homepage!</span>**-->
 
 I’m a theoretical and computational astrophysicist originally from <span class="blue">Lebanon</span>, currently based in <span class="blue">Spain</span>. My research delves into the extraordinary physics of <span class="blue">neutron stars</span>—<em>exotic cosmic laboratories</em> where immense <span class="blue">magnetic fields</span>, <span class="blue">ultra-dense nuclear matter</span>, and <span class="blue">quantum anomalies</span> converge.
 
