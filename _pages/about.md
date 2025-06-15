@@ -9,7 +9,7 @@ redirect_from:
 
 <style>
   .blue { color: #1f77b4; }
-  .highlight { color: #0056b3; font-weight: bold; }
+  .highlight { color: #1f77b4; font-weight: bold; }
 </style>
 
 **<span class="blue">Welcome to my homepage!</span>**
