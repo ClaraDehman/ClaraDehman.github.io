@@ -26,8 +26,8 @@ author:
   name             : "Clara Dehman"
   pronouns         : "she/her (b. 1996)"  
   bio              : "Juan de la Cierva Fellow"
-  location         : "Spain"
-  employer         : "University of Alicante"
+  # location         : "Spain"
+  employer         : "Alicante University, Spain"
   uri              : #"https://cvnet.cpd.ua.es/curriculum-breve/es/dehman-clara/697657"
   email            : "clara.dehman@ua.es" 
 
