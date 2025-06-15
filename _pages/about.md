@@ -15,6 +15,8 @@ After earning my **Bachelor’s degree in Physics** in Lebanon, I pursued advanc
 
 I have a deep passion for coding and computational problem-solving, particularly enjoying the challenges of developing and debugging complex numerical physics problems. I led the development of MATINS, focusing on the *magnetic field modeling component* and the implementation of its distinctive *cubed-sphere grid*, enabling detailed magneto-thermal simulations of neutron star crusts over million-year timescales.
 
+Furthermore, my recent research explores the pivotal role of **magnetic helicity** in neutron star magnetic field evolution—a concept not widely explored in *neutron star physics* literature. Specifically, I study the *inverse cascade phenomenon* triggered by an initial helical field in magnetars. In a groundbreaking approach, I applied the concept of the **chiral magnetic effect** to neutron star magnetic field modeling, revealing how magnetic helicity alone can generate chiral asymmetry. This mechanism reshapes initially turbulent, small-scale magnetic structures into coherent, large-scale fields (\~10¹⁴ G), typical of observed magnetars. Thus, this innovative model addresses a longstanding open question in astrophysical research.
+
 Beyond astrophysics, my expertise extends into **nuclear theory**. Collaborating with colleagues, I developed a **finite-temperature equation of state** critical for studying late-stage proto-neutron stars and the aftermath of binary neutron star mergers.
 
 Here you’ll find insights into my **research**, **teaching experiences**, **publications**, and **selected projects**—each reflecting the curiosity and rigor that shape my scientific journey.
