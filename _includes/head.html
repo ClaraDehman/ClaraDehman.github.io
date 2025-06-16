@@ -1,28 +1,15 @@
 {% include base_path %}
 
 <meta charset="utf-8">
+<meta name="author" content="Clara Dehman">
 
 {% include seo.html %}
 <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
 <meta name="description" content="{{ site.description }}">
 
-<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+<!-- rest of your code -->
 
-<!-- Mobile support -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-</script>
-
-<!-- Main stylesheet -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
-
-<meta http-equiv="cleartype" content="on">
-
-<!-- Structured data for Google site name -->
+<!-- Structured data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -31,4 +18,5 @@
   "url": "https://claradehman.github.io"
 }
 </script>
+
 
