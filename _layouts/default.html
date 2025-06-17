@@ -9,23 +9,24 @@ layout: compress
   <head>
     <title>Clara Dehman</title>
     <meta property="og:site_name" content="Clara Dehman" />
+
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
+      "url": "https://claradehman.github.io/",
       "name": "Clara Dehman",
-      "url": "https://claradehman.github.io"
+      "alternateName": "claradehman.github.io"
     }
     </script>
+
     {% include head.html %}
     {% include head/custom.html %}
   </head>
 
   <body>
-
     {% include browser-upgrade.html %}
     {% include masthead.html %}
-
     {{ content }}
 
     <div class="page__footer">
@@ -36,6 +37,5 @@ layout: compress
     </div>
 
     {% include scripts.html %}
-
   </body>
 </html>
