@@ -1,7 +1,7 @@
 ---
 title: "Revealing the nature of ultra-long period objects with space-based gravitational-wave interferometers"
 collection: publications
-category: In Press
+category: published
 permalink: /publication/2025-ultra-long-period-gw
 excerpt: 'Gravitational-wave signatures from ultra-long period neutron stars and prospects for detection with future space-based interferometers.'
 date: 2025-05-18
