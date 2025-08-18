@@ -10,5 +10,5 @@ paperurl: '/files/dehman2025b.pdf'
 arxivurl: 'https://arxiv.org/abs/2505.06196'
 doi: 'https://doi.org/10.1103/rhv5-nd4v'
 authors: "<strong>19. </strong> <strong><u>C. Dehman</u></strong>, J.A. Pons"
-citation: '<strong>C. Dehman</strong> & J.A. Pons (2025). <small><strong>Magnetar field dynamics shaped by chiral anomalies and helicity</strong></small>. <em>PRR, in press</em>. (<a href="https://arxiv.org/abs/2505.06196">arXiv</a>, <a href="https://ui.adsabs.harvard.edu/abs/2025arXiv250506196D/abstract">ADS</a>)'
+citation: '<strong>C. Dehman</strong> & J.A. Pons (2025). <small><strong>Magnetar field dynamics shaped by chiral anomalies and helicity</strong></small>. <em>PRR, in press </em>. (<a href="https://arxiv.org/abs/2505.06196">arXiv</a>, <a href="https://ui.adsabs.harvard.edu/abs/2025arXiv250506196D/abstract">ADS</a>)'
 ---
