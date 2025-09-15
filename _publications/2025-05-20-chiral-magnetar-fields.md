@@ -5,7 +5,7 @@ category: published
 permalink: /publication/2025-chiral-magnetar-fields
 excerpt: 'Study of chiral anomalies and magnetic helicity in shaping the magnetic field evolution of magnetars.'
 date: 2025-08-18
-venue: 'PRR, in press'
+venue: 'Phys. Rev. Research 7, 033231'
 paperurl: '/files/dehman2025b.pdf'
 arxivurl: 'https://arxiv.org/abs/2505.06196'
 doi: 'https://doi.org/10.1103/rhv5-nd4v'
