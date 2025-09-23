@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-You can download the full version of [my CV](/files/ClaraDehman_CV.pdf), last updated on Aug 18, 2025.
+You can download the full version of [my CV](/files/ClaraDehman_CV.pdf), last updated on Sep 23, 2025.
