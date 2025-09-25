@@ -7,7 +7,6 @@ location: "University of Alicante, Spain"
 ---
 
 <div class="archive__item">
-
   <p class="archive__item-excerpt" style="font-size: 0.95em; margin-top: 0;">
     <strong>Nuclear and Particle Physics,</strong> Instructor — 2 editions 
     <span style="color:#1f77b4;">(2024 & 2025)</span> — 
@@ -15,9 +14,7 @@ location: "University of Alicante, Spain"
     <em>Undergraduate course, Dept. of Applied Physics</em><br>
     <span style="font-size: 0.9em;">Designed and led lab sessions with Python coding support, issue resolution, and coursework assessment.</span>
   </p>
-
   <hr style="margin: 8px 0;">
-
   <p class="archive__item-excerpt" style="font-size: 0.95em; margin-top: 0;">
     <strong>Stellar Astrophysics,</strong> Lecturer & Instructor 
     <span style="color:#1f77b4;">(2025)</span> — 
@@ -25,9 +22,7 @@ location: "University of Alicante, Spain"
     <em>Undergraduate course, Dept. of Applied Physics</em><br>
     <span style="font-size: 0.9em;">Delivered theoretical lectures and supervised Python-based lab sessions (coding support, troubleshooting, grading).</span>
   </p>
-
   <hr style="margin: 8px 0;">
-
   <p class="archive__item-excerpt" style="font-size: 0.95em; margin-top: 0;">
     <strong>Introduction to Modelling in Physics,</strong> Instructor — 2 editions 
     <span style="color:#1f77b4;">(2024 & 2025)</span> — 
@@ -35,9 +30,7 @@ location: "University of Alicante, Spain"
     <em>Undergraduate course, Dept. of Applied Physics</em><br>
     <span style="font-size: 0.9em;">Supervised Python-based lab sessions, providing coding guidance, troubleshooting, and performance evaluation.</span>
   </p>
-
   <hr style="margin: 8px 0;">
-
   <p class="archive__item-excerpt" style="font-size: 0.95em; margin-top: 0;">
     <strong>Research in Computational Astrophysics,</strong> Invited Lecture 
     <span style="color:#1f77b4;">(2025)</span> — 
@@ -45,5 +38,4 @@ location: "University of Alicante, Spain"
     <em>Graduate course, Dept. of Applied Physics</em><br>
     <span style="font-size: 0.9em;">Delivered a one-hour seminar presenting my research work to Master’s-level students.</span>
   </p>
-
 </div>
