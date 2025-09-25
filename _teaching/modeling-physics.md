@@ -1,5 +1,5 @@
 ---
-title: "<span style='font-size:1.20em;'>Introduction to Modelling in Physics</span>"
+title: "<span style='font-size:1.20em;'>Teaching — Introduction to Modelling in Physics</span>"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2024-modeling-physics
