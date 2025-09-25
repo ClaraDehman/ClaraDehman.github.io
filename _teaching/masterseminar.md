@@ -1,5 +1,5 @@
 ---
-title: "<span style='font-size:1.20em;'>Research in Computational Astrophysics</span>"
+title: "<span style='font-size:1.20em;'>Teaching -- Research in Computational Astrophysics</span>"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2025-computational-astro
