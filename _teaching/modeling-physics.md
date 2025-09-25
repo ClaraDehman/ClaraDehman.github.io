@@ -1,5 +1,5 @@
 ---
-title: "<span style='font-size:1.20em;'>Teaching</span>"
+title: "<span style='font-size:1.20em;'></span>"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2024-modeling-physics
