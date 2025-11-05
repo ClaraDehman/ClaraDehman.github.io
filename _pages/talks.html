@@ -8,29 +8,27 @@ author_profile: true
 <p>This list includes <strong><u>13 invited</u></strong> and <strong><u>11 contributed</u></strong> presentations.</p>
 
 <h2>Invited Talks</h2>
+<ul style="list-style-type:none; padding-left:0;">
 {% for talk in site.talks reversed %}
   {% if talk.category == "invited" %}
-  <div class="archive__item">
-    <p class="archive__item-excerpt" style="font-size: 0.95em; margin-top: 0;">
-      <strong>{{ talk.title }}</strong><br>
-      <em>{{ talk.venue }}</em><br>
-      <span style="color:#1f77b4;">{{ talk.date | date: "%B %Y" }}</span>
-    </p>
-    <hr style="margin: 8px 0;">
-  </div>
+    <li style="margin-bottom:6px;">
+      <strong>{{ talk.title }}</strong>, 
+      <em>{{ talk.venue }}</em>, 
+      <span style="color:#1f77b4;">{{ talk.date | date: "%Y" }}</span>
+    </li>
   {% endif %}
 {% endfor %}
+</ul>
 
 <h2>Contributed Talks</h2>
+<ul style="list-style-type:none; padding-left:0;">
 {% for talk in site.talks reversed %}
   {% if talk.category == "contributed" %}
-  <div class="archive__item">
-    <p class="archive__item-excerpt" style="font-size: 0.95em; margin-top: 0;">
-      <strong>{{ talk.title }}</strong><br>
-      <em>{{ talk.venue }}</em><br>
-      <span style="color:#1f77b4;">{{ talk.date | date: "%B %Y" }}</span>
-    </p>
-    <hr style="margin: 8px 0;">
-  </div>
+    <li style="margin-bottom:6px;">
+      <strong>{{ talk.title }}</strong>, 
+      <em>{{ talk.venue }}</em>, 
+      <span style="color:#1f77b4;">{{ talk.date | date: "%Y" }}</span>
+    </li>
   {% endif %}
 {% endfor %}
+</ul>
