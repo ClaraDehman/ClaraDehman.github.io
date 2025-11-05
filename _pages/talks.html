@@ -11,10 +11,10 @@ author_profile: true
 <ul style="padding-left:1.2em; margin-top:0.5em; font-size:0.9rem; line-height:1.25;">
 {% for talk in site.talks reversed %}
   {% if talk.category == "invited" %}
-    <li style="margin-bottom:3px;">
+    <li style="margin-bottom:5px;"> <!-- increased spacing -->
       <strong>{{ talk.title }}</strong>
       — <span style="color:#555;">{{ talk.venue }}</span>
-      (<span style="color:#d14;">{{ talk.country }}</span>, {{ talk.date | date: "%Y" }})
+      (<span style="color:#d14;">{{ talk.country }}, {{ talk.date | date: "%Y" }}</span>)
     </li>
   {% endif %}
 {% endfor %}
@@ -24,10 +24,10 @@ author_profile: true
 <ul style="padding-left:1.2em; margin-top:0.5em; font-size:0.9rem; line-height:1.25;">
 {% for talk in site.talks reversed %}
   {% if talk.category == "contributed" %}
-    <li style="margin-bottom:3px;">
+    <li style="margin-bottom:5px;">
       <strong>{{ talk.title }}</strong>
       — <span style="color:#555;">{{ talk.venue }}</span>
-      (<span style="color:#d14;">{{ talk.country }}</span>, {{ talk.date | date: "%Y" }})
+      (<span style="color:#d14;">{{ talk.country }}, {{ talk.date | date: "%Y" }}</span>)
     </li>
   {% endif %}
 {% endfor %}
