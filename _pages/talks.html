@@ -7,20 +7,16 @@ author_profile: true
 
 <p>This list includes <strong><u>13 invited</u></strong> and <strong><u>11 contributed</u></strong> presentations.</p>
 
-{% if site.talkmap_link == true %}
-  <p style="text-decoration:underline;">
-    <a href="/talkmap.html">See a map of all the places I've given a talk!</a>
+{% for talk in site.talks reversed %}
+<div class="archive__item">
+  <p class="archive__item-excerpt" style="font-size: 0.95em; margin-top: 0;">
+    <strong>{{ talk.title }}</strong><br>
+    <em>{{ talk.venue }}</em><br>
+    <span style="color:#1f77b4;">{{ talk.date | date: "%Y" }}</span>
+    {% if talk.category == "invited" %}
+      — <span style="font-weight:bold; color:#d95f02;">Invited</span>
+    {% endif %}
   </p>
-{% endif %}
-
-{% for cat in site.talk_category %}
-  <h2>{{ cat[1].title }}</h2>
-  <ul>
-    {% assign cat_key = cat[0] %}
-    {% for post in site.talks reversed %}
-      {% if post.category == cat_key %}
-        {% include archive-single-talk.html %}
-      {% endif %}
-    {% endfor %}
-  </ul>
+  <hr style="margin: 8px 0;">
+</div>
 {% endfor %}
