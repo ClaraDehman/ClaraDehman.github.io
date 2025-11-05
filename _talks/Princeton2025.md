@@ -2,7 +2,7 @@
 title: "Magnetar Field Dynamics Shaped by Chiral Anomalies and Magnetic Helicity"
 date: 2025-05-15
 type: "Talk"
-venue: "Extreme Physics of Neutron Star Interiors, Princeton University"
+venue: "Extreme Physics of Neutron Star Interiors, Princeton University, New Jersey"
 country: USA
 category: invited
 collection: talks
