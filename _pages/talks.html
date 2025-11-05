@@ -8,22 +8,26 @@ author_profile: true
 <p>This list includes <strong><u>16 invited</u></strong> and <strong><u>11 contributed</u></strong> presentations.</p>
 
 <h2>Invited Talks</h2>
-<ul style="padding-left:1.2em; margin-top:0.5em;">
+<ul style="padding-left:1.2em; margin-top:0.5em; font-size:0.9rem; line-height:1.25;">
 {% for talk in site.talks reversed %}
   {% if talk.category == "invited" %}
-    <li style="margin-bottom:4px;">
-      <strong>{{ talk.title }}</strong>, <em>{{ talk.venue }}</em>, {{ talk.date | date: "%Y" }}
+    <li style="margin-bottom:3px;">
+      <strong>{{ talk.title }}</strong>
+      — <span style="color:#555;">{{ talk.venue }}</span>
+      (<span style="color:#d14;">{{ talk.country }}</span>, {{ talk.date | date: "%Y" }})
     </li>
   {% endif %}
 {% endfor %}
 </ul>
 
 <h2>Contributed Talks</h2>
-<ul style="padding-left:1.2em; margin-top:0.5em;">
+<ul style="padding-left:1.2em; margin-top:0.5em; font-size:0.9rem; line-height:1.25;">
 {% for talk in site.talks reversed %}
   {% if talk.category == "contributed" %}
-    <li style="margin-bottom:4px;">
-      <strong>{{ talk.title }}</strong>, <em>{{ talk.venue }}</em>, {{ talk.date | date: "%Y" }}
+    <li style="margin-bottom:3px;">
+      <strong>{{ talk.title }}</strong>
+      — <span style="color:#555;">{{ talk.venue }}</span>
+      (<span style="color:#d14;">{{ talk.country }}</span>, {{ talk.date | date: "%Y" }})
     </li>
   {% endif %}
 {% endfor %}
