@@ -31,7 +31,7 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
         effects. Early 3D efforts addressed either magnetic evolution alone or included thermal coupling only
         schematically. My PhD work bridged this gap by leading the development of
         <a href="https://ice-csic-astroexotic.github.io/code/matins/" target="_blank">MATINS Homepage</a>
-        (Dehman+2023; Ascenzi+2024) — an open-access 3D framework for fully coupled magneto-thermal
+        (Dehman+2023a,b; Ascenzi+2024) — an open-access 3D framework for fully coupled magneto-thermal
         evolution in isolated neutron star crusts: <a href="https://github.com/ice-csic-astroexotic/MATINS" target="_blank">MATINS on GitHub</a>
       </p>
     </div>
