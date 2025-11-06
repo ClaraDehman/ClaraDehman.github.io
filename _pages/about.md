@@ -22,10 +22,8 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
 
   <h2>The MATINS Code</h2>
 
-  <div style="display: flex; align-items: flex-start; gap: 30px;">
 
-  <div style="flex: 1; min-width: 300px;">
-      <p style="text-align: justify;">
+  <p style="text-align: justify;">
         Over the past decades, 2D axisymmetric studies provided foundational insights into cooling and
         magneto-thermal coupling in strongly magnetized neutron starss, but they could not capture non-axisymmetric
         effects. Early 3D efforts addressed either magnetic evolution alone or included thermal coupling only
@@ -34,19 +32,24 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
         (Dehman+2023a,b; Ascenzi+2024) — an open-access 3D framework for fully coupled magneto-thermal
         evolution in isolated neutron star crusts: <a href="https://github.com/ice-csic-astroexotic/MATINS" target="_blank">MATINS on GitHub</a>
       </p>
-    </div>
 
-  <div style="flex: 1; min-width: 300px; text-align: center;">
+
+
+  <div style="display: flex; align-items: flex-start; gap: 30px;">
+
+  <div style="flex: 1; min-width: 300px;">
+  <p style="text-align: justify;">
+    From a physical standpoint, MATINS solves the induction equation in the crust, incorporating Ohmic dissipation and Hall drift—key mechanisms driving magnetic energy cascades and surface heating in magnetars. This equation is coupled to a 3D cooling model that tracks local crustal temperature evolution, treats the core as a single thermal cell, and uses an envelope model as a boundary condition to provide the stellar surface temperature. MATINS also computes the Tolman–Oppenheimer–Volkoff structure, enabling the consistent use of various tabulated cold-matter equations of state from the <a href="https://compose.obspm.fr" target="_blank">CompOSE database</a> and stellar masses throughout the crust and core. Temperature-dependent microphysical properties in both regions are obtained from the <a href="https://www.ioffe.ru/astro/conduct/" target="_blank">IOFFE repository</a>, ensuring precise coupling of thermal and magnetic evolution. Computationally, MATINS employs a finite-volume scheme discretized on a cubed–sphere coordinate system, representing the stellar surface with six interconnected patches and circumventing the coordinate singularities inherent to spherical grids in finite-volume schemes. 
+  </p>
+      </div>
+
+   <div style="flex: 1; min-width: 300px; text-align: center;">
       <img src="files/legend_field_lines.gif"
            alt="Magnetic field evolution"
            style="width:100%; border-radius:6px;">
     </div>
 
-  </div>
-
-  <p style="text-align: justify;">
-    From a physical standpoint, MATINS solves the induction equation in the crust, incorporating Ohmic dissipation and Hall drift—key mechanisms driving magnetic energy cascades and surface heating in magnetars. This equation is coupled to a 3D cooling model that tracks local crustal temperature evolution, treats the core as a single thermal cell, and uses an envelope model as a boundary condition to provide the stellar surface temperature. MATINS also computes the Tolman–Oppenheimer–Volkoff structure, enabling the consistent use of various tabulated cold-matter equations of state from the <a href="https://compose.obspm.fr" target="_blank">CompOSE database</a> and stellar masses throughout the crust and core. Temperature-dependent microphysical properties in both regions are obtained from the <a href="https://www.ioffe.ru/astro/conduct/" target="_blank">IOFFE repository</a>, ensuring precise coupling of thermal and magnetic evolution. Computationally, MATINS employs a finite-volume scheme discretized on a cubed–sphere coordinate system, representing the stellar surface with six interconnected patches and circumventing the coordinate singularities inherent to spherical grids in finite-volume schemes. 
-  </p>
+  </div>     
 
   <p style="text-align: justify;">
 MATINS facilitates self-consistent evolution over one million years and accurately models key observables of isolated neutron stars, including X-ray thermal emission, surface magnetic fields, and rotational properties. MATINS further enables pulsar population synthesis—connecting magnetic evolution to spin and birth characteristics—and simulates magnetar bursts driven by crustal stress release, capturing flaring rates as functions of age and magnetic geometry.
