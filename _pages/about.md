@@ -18,24 +18,38 @@ redirect_from:
 I am a theoretical and computational astrophysicist, currently a Juan de la Cierva Fellow in Spain. My work focuses on neutron stars—compact stellar remnants so dense that a teaspoon of their matter would outweigh a mountain. We observe these objects across the electromagnetic spectrum, but understanding their behavior requires modeling how magnetic fields, heat, and ultra-dense matter interact in their interiors. To probe these extreme environments, we use large-scale, high-performance numerical simulations.
 </p>
 
-<section>
-  <h2>The MATINS Code</h2>
+<section style="display: flex; align-items: flex-start; gap: 30px;">
+
+ <section style="display: flex; align-items: flex-start; gap: 30px;">
+
+  <div style="flex: 1; min-width: 300px;">
+    <h2>The MATINS Code</h2>
+
   <p style="text-align: justify;">
-    Over the past decades, 2D axisymmetric studies provided foundational insights into cooling and magneto-thermal coupling in strongly magnetized neutron stars (NSs), but they could not capture non-axisymmetric effects. Early 3D efforts addressed either magnetic evolution alone or included thermal coupling only schematically. My PhD work bridged this gap by leading the development of <strong>MATINS</strong> (Dehman+2023; Ascenzi+2024)—an open-access 3D framework for fully coupled <strong>MA</strong>gneto-<strong>T</strong>hermal evolution in <strong>IN</strong>olated neutron star <strong>S</strong> crusts:
-    <a href="https://github.com/ice-csic-astroexotic/MATINS" target="_blank">https://github.com/ice-csic-astroexotic/MATINS</a>.
+     Over the past decades, 2D axisymmetric studies provided foundational insights into cooling and magneto-thermal coupling in strongly magnetized NSs [2], but they could not capture non-axisymmetric effects. Early 3D efforts addressed either magnetic evolution alone [3] or included thermal coupling only schematically [4]. My PhD work bridged this gap by leading the development of MATINS (Dehman+2023 [5,6]; Ascenzi+2024 [7]) from scratch—an open-access 3D framework for fully coupled MAgneto-Thermal evolution in Isolated Neutron Star crusts:
+<a href="https://github.com/ice-csic-astroexotic/MATINS" target="_blank">MATINS on GitHub</a><br>
+<a href="https://ice-csic-astroexotic.github.io/MATINS" target="_blank">MATINS Homepage</a>
   </p>
 
   <p style="text-align: justify;">
-    MATINS solves the induction equation in the crust, incorporating Ohmic dissipation and Hall drift—key mechanisms driving magnetic energy cascades and magnetar surface heating. This is coupled to a 3D cooling model tracking local crustal temperature, treating the core as a single thermal reservoir and using an envelope model to set the surface temperature.
-  </p>
+      MATINS solves the induction equation in the crust, incorporating Ohmic dissipation and Hall drift—key mechanisms driving magnetic energy cascades and magnetar surface heating. This is coupled to a 3D cooling model tracking local crustal temperature, treating the core as a single thermal reservoir, and using an envelope model to set the surface temperature.
+    </p>
 
   <p style="text-align: justify;">
-    The code computes stellar structure using the Tolman–Oppenheimer–Volkoff equations and supports tabulated equations of state from the CompOSE database. Temperature-dependent microphysical inputs are drawn from the IOFFE database, ensuring consistent thermal and magnetic evolution.
-  </p>
+      The code computes the stellar structure via the Tolman–Oppenheimer–Volkoff equations and supports EOS tables from the CompOSE database. Temperature-dependent microphysics are drawn from the IOFFE database, ensuring consistent thermal and magnetic evolution.
+    </p>
 
   <p style="text-align: justify;">
-    Computationally, MATINS employs a finite-volume scheme on a cubed-sphere coordinate system, avoiding singularities in spherical grids. It enables self-consistent evolution over Myr timescales and models key observables of isolated NSs, including X-ray emission, surface magnetic fields, and rotational properties. MATINS also supports pulsar population synthesis and magnetar burst simulations driven by crustal stress accumulation.
-  </p>
+      The code employs a finite-volume scheme on a cubed-sphere grid, avoiding spherical coordinate singularities. It enables Myr-scale magneto-thermal evolution, modeling key observables such as X-ray emission, surface magnetic fields, rotational evolution, population synthesis, and magnetar bursting activity.
+    </p>
+  </div>
+
+<div style="flex: 1; min-width: 300px; text-align: center;">
+  <img src="files/MATINS_fieldlines.gif"
+       alt="MATINS magnetic field evolution"
+       style="width:100%; border-radius:6px;">
+</div>
+
 </section>
 
 <p>
@@ -43,17 +57,3 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
 </p>
 
 
-<!--I led the development of MATINS, focusing on the *magnetic field modeling component* and the implementation of its distinctive *cubed-sphere grid*, enabling detailed magneto-thermal simulations of neutron star crusts over million-year timescales. -->
-
-<!-- Furthermore, my recent research explores the pivotal role of **magnetic helicity** in neutron star magnetic field evolution—a concept not widely explored in *neutron star physics* literature. Specifically, I study the *inverse cascade phenomenon* triggered by an initial helical field in magnetars. In a groundbreaking approach, I applied the concept of the **chiral magnetic effect** to neutron star magnetic field modeling, revealing how magnetic helicity alone can generate chiral asymmetry. This mechanism reshapes initially turbulent, small-scale magnetic structures into coherent, large-scale fields (\~10¹⁴ G), typical of observed magnetars. Thus, this innovative model addresses a longstanding open question in astrophysical research. -->
-
-<!-- Beyond astrophysics, my expertise extends into **nuclear theory**. Collaborating with colleagues, I developed a **finite-temperature equation of state** critical for studying late-stage proto-neutron stars and the aftermath of binary neutron star mergers. -->
-
-
-
-<!-- Below you’ll find highlights of my **selected research projects**—each reflecting the curiosity and rigor that drive my scientific journey. -->
-<!-- ----->
-
-<!--### MATINS-->
-
-<!-- ----->
