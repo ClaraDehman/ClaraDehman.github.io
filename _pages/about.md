@@ -39,7 +39,7 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
     </div>
 
   <div style="flex: 1; min-width: 300px; text-align: center;">
-      <img src="files/MATINS_fieldlines.gif"
+      <img src="files/legend_field_lines.gif"
            alt="Magnetic field evolution"
            style="width:100%; border-radius:6px;">
     </div>
