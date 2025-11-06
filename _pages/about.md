@@ -44,8 +44,8 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
   </div>
 
 <div style="flex: 1; min-width: 300px; text-align: center;">
-  <img src="files/MATINS_fieldlines.gif"
-       alt="MATINS magnetic field evolution"
+  <img src="files/legend_field_lines.gif"
+       alt=".."
        style="width:100%; border-radius:6px;">
 </div>
 
