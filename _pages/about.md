@@ -26,9 +26,8 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
     <h2>The MATINS Code</h2>
 
   <p style="text-align: justify;">
-     Over the past decades, 2D axisymmetric studies provided foundational insights into cooling and magneto-thermal coupling in strongly magnetized NSs [2], but they could not capture non-axisymmetric effects. Early 3D efforts addressed either magnetic evolution alone [3] or included thermal coupling only schematically [4]. My PhD work bridged this gap by leading the development of MATINS (Dehman+2023 [5,6]; Ascenzi+2024 [7]) from scratch—an open-access 3D framework for fully coupled MAgneto-Thermal evolution in Isolated Neutron Star crusts:
+     Over the past decades, 2D axisymmetric studies provided foundational insights into cooling and magneto-thermal coupling in strongly magnetized NSs [2], but they could not capture non-axisymmetric effects. Early 3D efforts addressed either magnetic evolution alone [3] or included thermal coupling only schematically [4]. My PhD work bridged this gap by leading the development of <a href="https://ice-csic-astroexotic.github.io/MATINS" target="_blank">MATINS Homepage</a> (Dehman+2023; Ascenzi+2024) from scratch—an open-access 3D framework for fully coupled MAgneto-Thermal evolution in Isolated Neutron Star crusts:
 <a href="https://github.com/ice-csic-astroexotic/MATINS" target="_blank">MATINS on GitHub</a><br>
-<a href="https://ice-csic-astroexotic.github.io/MATINS" target="_blank">MATINS Homepage</a>
   </p>
 
   <p style="text-align: justify;">
