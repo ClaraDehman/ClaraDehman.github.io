@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to my homepage!"
+title: "Research Interests"
 author_profile: true
 redirect_from: 
   - /about/
@@ -14,7 +14,7 @@ redirect_from:
 
 <!--**<span class="blue">Welcome to my homepage!</span>**-->
 
-I’m a theoretical and computational astrophysicist originally from <span class="blue">Lebanon</span>, currently based in <span class="blue">Spain</span>. My research delves into the extraordinary physics of <span class="blue">neutron stars</span>—<em>exotic cosmic laboratories</em> where immense <span class="blue">magnetic fields</span>, <span class="blue">ultra-dense nuclear matter</span>, and <span class="blue">quantum anomalies</span> converge.
+I am a theoretical and computational astrophysicist, currently a Juan de la Cierva Fellow in Spain. My work focuses on neutron stars—compact stellar remnants so dense that a teaspoon of their matter would outweigh a mountain. We observe these objects across the electromagnetic spectrum, but understanding their behavior requires modeling how magnetic fields, heat, and ultra-dense matter interact in their interiors. To probe these extreme environments, we use large-scale, high-performance numerical simulations.
 
 After earning my Bachelor’s degree in Physics in Lebanon, I pursued advanced studies across <span class="blue">Italy, France, and Spain</span> through the <em>Erasmus Mundus Joint Master in Nuclear Physics</em>, supported by a competitive <span class="blue">European scholarship</span>. I completed my <span class="blue">PhD</span> at the <em>Autonomous University of Barcelona</em>, developing <span class="blue">MATINS</span>, a pioneering <span class="blue">3D magneto-thermal simulation code</span> tailored for <em>isolated neutron stars</em>. This work was driven by my deep passion for <span class="blue">coding</span> and <span class="blue">computational problem-solving</span>, especially the challenge of <span class="blue">designing</span> and <span class="blue">debugging</span> complex numerical physics models.
 
