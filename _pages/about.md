@@ -22,10 +22,8 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
 
   <h2>The MATINS Code</h2>
 
-  <!-- FIRST PARAGRAPH + VIDEO SIDE BY SIDE -->
   <div style="display: flex; align-items: flex-start; gap: 30px;">
 
-    <!-- TEXT -->
   <div style="flex: 1; min-width: 300px;">
       <p style="text-align: justify;">
         Over the past decades, 2D axisymmetric studies provided foundational insights into cooling and
@@ -40,7 +38,6 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
       </p>
     </div>
 
-    <!-- VIDEO -->
   <div style="flex: 1; min-width: 300px; text-align: center;">
       <img src="files/MATINS_fieldlines.gif"
            alt="Magnetic field evolution"
