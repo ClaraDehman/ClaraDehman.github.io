@@ -27,7 +27,7 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
   <div style="flex: 1; min-width: 300px;">
       <p style="text-align: justify;">
         Over the past decades, 2D axisymmetric studies provided foundational insights into cooling and
-        magneto-thermal coupling in strongly magnetized NSs, but they could not capture non-axisymmetric
+        magneto-thermal coupling in strongly magnetized neutron starss, but they could not capture non-axisymmetric
         effects. Early 3D efforts addressed either magnetic evolution alone or included thermal coupling only
         schematically. My PhD work bridged this gap by leading the development of
         <a href="https://ice-csic-astroexotic.github.io/code/matins/" target="_blank">MATINS Homepage</a>
@@ -49,7 +49,7 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
   </p>
 
   <p style="text-align: justify;">
-MATINS facilitates self-consistent evolution over one million years and accurately models key observables of isolated NSs, including X-ray thermal emission, surface magnetic fields, and rotational properties. MATINS further enables pulsar population synthesis—connecting magnetic evolution to spin and birth characteristics—and simulates magnetar bursts driven by crustal stress release, capturing flaring rates as functions of age and magnetic geometry.
+MATINS facilitates self-consistent evolution over one million years and accurately models key observables of isolated neutron stars, including X-ray thermal emission, surface magnetic fields, and rotational properties. MATINS further enables pulsar population synthesis—connecting magnetic evolution to spin and birth characteristics—and simulates magnetar bursts driven by crustal stress release, capturing flaring rates as functions of age and magnetic geometry.
   </p>
 
 </section>
