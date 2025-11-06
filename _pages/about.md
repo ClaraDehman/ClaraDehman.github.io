@@ -18,36 +18,55 @@ redirect_from:
 I am a theoretical and computational astrophysicist, currently a Juan de la Cierva Fellow in Spain. My work focuses on neutron stars—compact stellar remnants so dense that a teaspoon of their matter would outweigh a mountain. We observe these objects across the electromagnetic spectrum, but understanding their behavior requires modeling how magnetic fields, heat, and ultra-dense matter interact in their interiors. To probe these extreme environments, we use large-scale, high-performance numerical simulations.
 </p>
 
-<section style="display: flex; align-items: flex-start; gap: 30px;">
+<section>
 
- <section style="display: flex; align-items: flex-start; gap: 30px;">
+  <h2>The MATINS Code</h2>
 
+  <!-- FIRST PARAGRAPH + VIDEO SIDE BY SIDE -->
+  <div style="display: flex; align-items: flex-start; gap: 30px;">
+
+    <!-- TEXT -->
   <div style="flex: 1; min-width: 300px;">
-    <h2>The MATINS Code</h2>
+      <p style="text-align: justify;">
+        Over the past decades, 2D axisymmetric studies provided foundational insights into cooling and
+        magneto-thermal coupling in strongly magnetized NSs, but they could not capture non-axisymmetric
+        effects. Early 3D efforts addressed either magnetic evolution alone or included thermal coupling only
+        schematically. My PhD work bridged this gap by leading the development of
+        <a href="https://ice-csic-astroexotic.github.io/MATINS" target="_blank">MATINS Homepage</a>
+        (Dehman+2023; Ascenzi+2024) — an open-access 3D framework for fully coupled magneto-thermal
+        evolution in isolated neutron star crusts.
+        <br>
+        <a href="https://github.com/ice-csic-astroexotic/MATINS" target="_blank">MATINS on GitHub</a>
+      </p>
+    </div>
+
+    <!-- VIDEO -->
+  <div style="flex: 1; min-width: 300px; text-align: center;">
+      <img src="files/MATINS_fieldlines.gif"
+           alt="Magnetic field evolution"
+           style="width:100%; border-radius:6px;">
+    </div>
+
+  </div>
 
   <p style="text-align: justify;">
-     Over the past decades, 2D axisymmetric studies provided foundational insights into cooling and magneto-thermal coupling in strongly magnetized NSs [2], but they could not capture non-axisymmetric effects. Early 3D efforts addressed either magnetic evolution alone [3] or included thermal coupling only schematically [4]. My PhD work bridged this gap by leading the development of <a href="https://ice-csic-astroexotic.github.io/MATINS" target="_blank">MATINS Homepage</a> (Dehman+2023; Ascenzi+2024) from scratch—an open-access 3D framework for fully coupled MAgneto-Thermal evolution in Isolated Neutron Star crusts:
-<a href="https://github.com/ice-csic-astroexotic/MATINS" target="_blank">MATINS on GitHub</a><br>
+    MATINS solves the induction equation in the crust, incorporating Ohmic dissipation and Hall drift — key
+    mechanisms driving magnetic energy cascades and magnetar surface heating. This is coupled to a 3D cooling
+    model tracking local crustal temperature, treating the core as a single thermal reservoir, and using an
+    envelope model to set the surface temperature.
   </p>
 
   <p style="text-align: justify;">
-      MATINS solves the induction equation in the crust, incorporating Ohmic dissipation and Hall drift—key mechanisms driving magnetic energy cascades and magnetar surface heating. This is coupled to a 3D cooling model tracking local crustal temperature, treating the core as a single thermal reservoir, and using an envelope model to set the surface temperature.
-    </p>
+    The code computes the stellar structure via the Tolman–Oppenheimer–Volkoff equations and supports EOS
+    tables from the CompOSE database. Temperature-dependent microphysics are drawn from the IOFFE database,
+    ensuring consistent thermal and magnetic evolution.
+  </p>
 
   <p style="text-align: justify;">
-      The code computes the stellar structure via the Tolman–Oppenheimer–Volkoff equations and supports EOS tables from the CompOSE database. Temperature-dependent microphysics are drawn from the IOFFE database, ensuring consistent thermal and magnetic evolution.
-    </p>
-
-  <p style="text-align: justify;">
-      The code employs a finite-volume scheme on a cubed-sphere grid, avoiding spherical coordinate singularities. It enables Myr-scale magneto-thermal evolution, modeling key observables such as X-ray emission, surface magnetic fields, rotational evolution, population synthesis, and magnetar bursting activity.
-    </p>
-  </div>
-
-<div style="flex: 1; min-width: 300px; text-align: center;">
-  <img src="files/legend_field_lines.gif"
-       alt=".."
-       style="width:100%; border-radius:6px;">
-</div>
+    The code employs a finite-volume scheme on a cubed-sphere grid, avoiding spherical coordinate singularities.
+    It enables Myr-scale magneto-thermal evolution and models key observables such as X-ray emission, surface
+    magnetic fields, rotational evolution, population synthesis, and magnetar bursting activity.
+  </p>
 
 </section>
 
