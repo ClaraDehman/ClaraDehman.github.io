@@ -68,6 +68,12 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
 
 
 
+<section>
+
+  <h2>Origin of Magnetars large scale field: Magnetic helicity and Chiral magnetic effect</h2>
+
+</section>
+
 <!-- <p>
   Currently, as a <span class="blue">Juan de la Cierva Fellow</span>—awarded through a competitive national research program—I investigate how <span class="blue">magnetic helicity</span> and <span class="blue">chiral anomalies</span> influence neutron star magnetic field evolution. Building on this, I show how a newborn neutron star can reorganize a tangle of small magnetic knots into the strong, ordered dipole seen in magnetars—without any external power source. For years, ideas focused on the first moments after collapse struggled to build a large dipole and mostly produced short-lived, small-scale turbulence. My results explain how that turbulence later self-organizes. The key is <span class="blue">magnetic helicity</span>—the twist and linkage of field lines. A subtle quantum link between particle spin and magnetic fields (a <span class="blue">chiral</span> effect) lets the field use its own helicity as a catalyst to rearrange itself. Modern particle-physics calculations show that any initial particle imbalance decays quickly, and I include that damping. Even so, a tiny residual is enough when a neutron star has what earlier stages don’t: time. Over roughly 50–100 years, my 3D simulations show the field coalescing into a large-scale dipole of a few ×10¹⁴ gauss—matching observations of mature magnetars. This closes a long-standing gap between early “dynamo” ideas and observed magnetars, and highlights the often overlooked role of helicity: small twists, patiently guided over decades, can build the giant magnetic structures that power these stars.
 </p> -->
