@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Research Interests"
+title: "Research Highlights"
 author_profile: true
 redirect_from: 
   - /about/
@@ -73,7 +73,26 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
   <h2>Origin of Magnetars’ Large-Scale Magnetic Field: Magnetic Helicity and the Chiral Magnetic Effect</h2>
 
 
+</section>
 
+
+<section>
+
+  <h2>Constraints on the Dense Matter Equation of State</h2>
+
+
+</section>
+
+<section>
+
+  <h2>Magnetic Stresses and Fast Radio Bursts</h2>
+
+
+</section>
+
+<section>
+
+  <h2>Finite-Temperature Dense Matter Equation of State”</h2>
 
 
 </section>
