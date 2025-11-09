@@ -70,7 +70,11 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
 
 <section>
 
-  <h2>Origin of Magnetars large scale field: Magnetic helicity and Chiral magnetic effect</h2>
+  <h2>Origin of Magnetars’ Large-Scale Magnetic Field: Magnetic Helicity and the Chiral Magnetic Effect</h2>
+
+
+
+
 
 </section>
 
