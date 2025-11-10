@@ -97,7 +97,9 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
     </a>
   </div>
 
-<div class="custom-grid">
+<div style="clear: both;"></div>
+
+ <div class="custom-grid">
 
   <div class="custom-card">
     <a href="/pinn/">
