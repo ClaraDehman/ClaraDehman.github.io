@@ -79,7 +79,7 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
 <div class="custom-grid">
 
   <div class="custom-card">
-    <a href="/pages/EOS/">
+    <a href="/pages/Contraint_EOS/">
       <img src="/files/constraint_eos.png" alt="Dense Matter EOS">
       <div class="custom-caption">
         <strong>Constraint on Dense Matter Equation of State</strong>
