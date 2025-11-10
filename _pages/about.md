@@ -65,7 +65,7 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
 
   <div class="custom-card">
     <a href="/pages/CME/">
-      <img src="/files/InverseCascade.pdf" alt="Helicity CME">
+      <img src="/files/InverseCascade.jpg" alt="Helicity CME">
       <div class="custom-caption">
         <strong>Magnetic Helicity & Chiral Magnetic Effect</strong>
       </div>
