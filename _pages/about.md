@@ -33,7 +33,7 @@ redirect_from:
   .custom-card img {
     width: 100%;
     aspect-ratio: 1 / 1; /* forces square */
-    object-fit: cover;  /* show entire image */
+    object-fit: contain;  /* show entire image */
     background: #ffffff;  /* optional: neutral background */
     padding: 2px;        /* reduced padding inside image */
     border-radius: 6px;
