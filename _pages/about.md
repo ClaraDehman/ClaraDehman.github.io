@@ -8,11 +8,10 @@ redirect_from:
 ---
 
 <style>
-
   .custom-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* smaller min width */
+    gap: 20px; /* slightly smaller gap */
     margin-top: 25px;
   }
 
@@ -22,22 +21,22 @@ redirect_from:
     background: #f7f7f7;
     text-align: center;
     transition: transform 0.2s ease;
-    padding: 10px;
+    padding: 5px; /* reduced padding */
   }
 
   .custom-card:hover {
     transform: scale(1.03);
   }
 
-/* Square images */
-.custom-card img {
-  width: 100%;
-  aspect-ratio: 1 / 1; /* forces square */
-  object-fit: contain;  /* show entire image */
-  background: #ffffff;  /* optional: neutral background */
-  padding: 10px;        /* optional: adds some space inside the square */
-  border-radius: 6px;
-}
+  /* Square images */
+  .custom-card img {
+    width: 100%;
+    aspect-ratio: 1 / 1; /* forces square */
+    object-fit: contain;  /* show entire image */
+    background: #ffffff;  /* optional: neutral background */
+    padding: 5px;        /* reduced padding inside image */
+    border-radius: 6px;
+  }
 
   .custom-caption {
     padding-top: 10px;
