@@ -8,44 +8,68 @@ redirect_from:
 ---
 
 <style>
-  .blue { color: #1f77b4; }
-  .highlight { color: #1f77b4; font-weight: bold; }
+  .custom-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    margin-top: 25px;
+  }
+
+  .custom-card {
+    border-radius: 8px;
+    overflow: hidden;
+    background: #f7f7f7;
+    text-align: center;
+    transition: transform 0.2s ease;
+    padding: 10px;
+  }
+
+  .custom-card:hover {
+    transform: scale(1.03);
+  }
+
+  /* Square images */
+  .custom-card img {
+    width: 100%;
+    aspect-ratio: 1 / 1; /* forces square */
+    object-fit: cover;   /* crop nicely */
+    border-radius: 6px;
+  }
+
+  .custom-caption {
+    padding-top: 10px;
+    font-size: 1.1em;
+  }
 </style>
 
-<!--**<span class="blue">Welcome to my homepage!</span>**-->
 
 <p style="text-align: justify;">
 I am a theoretical and computational astrophysicist, currently a Juan de la Cierva Fellow in Spain. My work focuses on neutron stars—compact stellar remnants so dense that a teaspoon of their matter would outweigh a mountain. We observe these objects across the electromagnetic spectrum, but understanding their behavior requires modeling how magnetic fields, heat, and ultra-dense matter interact in their interiors. To probe these extreme environments, we use large-scale, high-performance numerical simulations.
 </p>
 
+<div style="clear: both;"></div>
 
-<!-- <div class="main-content" style="text-align: justify;">
-  <p> Links for the codes developed by our group and the associated documentation can be found here.</p>
-</div>
 
-<h1>Code Gallery</h1> -->
 <div class="custom-grid">
+
   <div class="custom-card">
-    <a href="/code/matins/">
+    <a href="/pages/matins/">
       <img src="/files/MATINSlogo.svg" alt="MATINS project">
       <div class="custom-caption">
-        <strong>MATINS</strong><br>
-        <!-- <span>Python</span> -->
+        <strong>MATINS Code</strong>
       </div>
     </a>
   </div>
 
   <div class="custom-card">
-    <a href="/code/ml_poppyns/">
-      <img src="/files/MATINSlogo.svg" alt="ML-Poppyns project">
+    <a href="/pages/CME/">
+      <img src="/files/MATINSlogo.svg" alt="Helicity CME">
       <div class="custom-caption">
-        <strong>Helicity and CME</strong><br>
-        <!-- <span>Fortran</span> -->
+        <strong>Helicity & Chiral Magnetic Effect</strong>
       </div>
     </a>
   </div>
+
 </div>
-
-
 
 
