@@ -29,10 +29,11 @@ redirect_from:
 /* Square images */
 .custom-card img {
   width: 100%;
-  aspect-ratio: 1 / 1; /* keeps square */
-  object-fit: cover;   /* fills square fully */
+  aspect-ratio: 1 / 1; /* keep square */
+  object-fit: contain;  /* shows entire image */
+  background: #ffffff;  /* fills empty space with neutral background */
   border-radius: 6px;
-  padding: 0;          /* remove extra white space */
+  padding: 5px;         /* optional space around image */
 }
 
   .custom-caption {
