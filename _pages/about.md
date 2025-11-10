@@ -74,4 +74,28 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
 
 </div>
 
+<div style="clear: both;"></div>
+
+<div class="custom-grid">
+
+  <div class="custom-card">
+    <a href="/pages/EOS/">
+      <img src="/files/constraint_eos.png" alt="Dense Matter EOS">
+      <div class="custom-caption">
+        <strong>Constraint on Dense Matter Equation of State</strong>
+      </div>
+    </a>
+  </div>
+
+  <div class="custom-card">
+    <a href="/pages/FRB/">
+      <img src="/files/frb.png" alt="Magnetic Stresses & FRBs">
+      <div class="custom-caption">
+        <strong>Magnetic Stresses & Fast Radio Bursts</strong>
+      </div>
+    </a>
+  </div>
+
+</div>
+
 
