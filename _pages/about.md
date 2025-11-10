@@ -55,7 +55,7 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
 <div class="custom-grid">
 
   <div class="custom-card">
-    <a href="/pages/matins/">
+    <a href="/matins/">
       <img src="/files/MATINSlogo.svg" alt="MATINS project">
       <div class="custom-caption">
         <strong>MATINS Code</strong>
@@ -64,7 +64,7 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
   </div>
 
   <div class="custom-card">
-    <a href="/pages/CME/">
+    <a href="/CME/">
       <img src="/files/InverseCascade.jpg" alt="Helicity CME">
       <div class="custom-caption">
         <strong>Magnetic Helicity & Chiral Magnetic Effect</strong>
@@ -79,7 +79,7 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
 <div class="custom-grid">
 
   <div class="custom-card">
-    <a href="/pages/Contraint_EOS/">
+    <a href="/Contraint_EOS/">
       <img src="/files/constraint_eos.png" alt="Dense Matter EOS">
       <div class="custom-caption">
         <strong>Constraint on Dense Matter Equation of State</strong>
@@ -88,7 +88,7 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
   </div>
 
   <div class="custom-card">
-    <a href="/pages/FRB/">
+    <a href="/FRB/">
       <img src="/files/frb.png" alt="Magnetic Stresses & FRBs">
       <div class="custom-caption">
         <strong>Magnetic Stresses & Fast Radio Bursts</strong>
