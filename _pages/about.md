@@ -65,7 +65,7 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
   </div>
 
   <div class="custom-card">
-    <a href="/CME/">
+    <a href="/cme/">
       <img src="/files/InverseCascade.jpg" alt="Helicity CME">
       <div class="custom-caption">
         <strong>Magnetic Helicity & Chiral Magnetic Effect</strong>
@@ -80,7 +80,7 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
 <div class="custom-grid">
 
   <div class="custom-card">
-    <a href="/Contraint_EOS/">
+    <a href="/contrainteos/">
       <img src="/files/constraint_eos.png" alt="Dense Matter EOS">
       <div class="custom-caption">
         <strong>Constraint on Dense Matter Equation of State</strong>
@@ -89,7 +89,7 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
   </div>
 
   <div class="custom-card">
-    <a href="/FRB/">
+    <a href="/frb/">
       <img src="/files/frb.png" alt="Magnetic Stresses & FRBs">
       <div class="custom-caption">
         <strong>Magnetic Stresses & Fast Radio Bursts</strong>
@@ -97,6 +97,25 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
     </a>
   </div>
 
-</div>
+<div class="custom-grid">
 
+  <div class="custom-card">
+    <a href="/pinn/">
+      <img src="/files/pinn.png" alt="PINNs">
+      <div class="custom-caption">
+        <strong>Interior–Magnetosphere Coupling with PINNs</strong>
+      </div>
+    </a>
+  </div>
+
+  <div class="custom-card">
+    <a href="/finite_temp_eos/">
+      <img src="/files/eos_finiteT.png" alt="Finite-temperature EOS">
+      <div class="custom-caption">
+        <strong>Finite-Temperature Nuclear EOS</strong>
+      </div>
+    </a>
+  </div>
+
+</div>
 
