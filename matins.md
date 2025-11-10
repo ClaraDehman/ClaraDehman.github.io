@@ -1,10 +1,9 @@
 ---
-permalink: /
+permalink: /matins/
 title: "The MATINS Code"
 author_profile: true
 redirect_from: 
-  - /MATINS/
-  - /MATINS.html
+  - /matins.html
 ---
 
   <p style="text-align: justify;">
