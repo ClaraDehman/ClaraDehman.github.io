@@ -1,6 +1,11 @@
-<section>
-
-  <h2>The MATINS Code</h2>
+---
+permalink: /
+title: "The MATINS Code"
+author_profile: true
+redirect_from: 
+  - /MATINS/
+  - /MATINS.html
+---
 
   <p style="text-align: justify;">
     Over the past decades, 2D axisymmetric studies provided foundational insights into cooling and
@@ -44,4 +49,4 @@
     rates as functions of age and magnetic geometry.
   </p>
 
-</section>
+
