@@ -8,32 +8,35 @@ redirect_from:
 ---
 
 <style>
-.custom-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* smaller min width */
-  gap: 20px; /* slightly smaller gap */
-  margin-top: 20px;
-}
 
-.custom-card {
-  border-radius: 8px;
-  overflow: hidden;
-  background: #f7f7f7;
-  text-align: center;
-  transition: transform 0.2s ease;
-  padding: 5px; /* reduce padding */
-  max-width: 280px; /* limits block width */
-  margin: 0 auto; /* centers each card in grid cell */
-}
+  .custom-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    margin-top: 25px;
+  }
+
+  .custom-card {
+    border-radius: 8px;
+    overflow: hidden;
+    background: #f7f7f7;
+    text-align: center;
+    transition: transform 0.2s ease;
+    padding: 10px;
+  }
+
+  .custom-card:hover {
+    transform: scale(1.03);
+  }
 
 /* Square images */
 .custom-card img {
   width: 100%;
-  aspect-ratio: 1 / 1; /* keep square */
-  object-fit: contain;  /* shows entire image */
-  background: #ffffff;  /* fills empty space with neutral background */
+  aspect-ratio: 1 / 1; /* forces square */
+  object-fit: contain;  /* show entire image */
+  background: #ffffff;  /* optional: neutral background */
+  padding: 10px;        /* optional: adds some space inside the square */
   border-radius: 6px;
-  padding: 5px;         /* optional space around image */
 }
 
   .custom-caption {
