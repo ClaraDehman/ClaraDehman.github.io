@@ -113,7 +113,7 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
   </div>
 
   <div class="custom-card">
-    <a href="/finite_temp_eos/">
+    <a href="/finitetempeos/">
       <img src="/files/eos_finiteT.png" alt="Finite-temperature EOS">
       <div class="custom-caption">
         <strong>Finite-Temperature Nuclear EOS</strong>
