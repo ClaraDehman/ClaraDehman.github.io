@@ -97,6 +97,8 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
     </a>
   </div>
 
+</div>
+
 <div style="clear: both;"></div>
 
  <div class="custom-grid">
