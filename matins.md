@@ -18,7 +18,7 @@ redirect_from:
   </p>
 
   <!-- IMAGE floated to the right -->
-  <img src="files/legend_field_lines.gif"
+  <img src="/files/legend_field_lines.gif"
        alt="Magnetic field evolution"
        style="float:right; width:40%; margin-left:20px; border-radius:6px;">
 
