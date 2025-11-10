@@ -30,15 +30,15 @@ redirect_from:
 
   .custom-card img {
     width: 100%;
-    aspect-ratio: 1 / 1;
+    height: 120px;
     object-fit: contain;
     background: #fff;
-    padding: 5px; /* smaller padding */
-    border-radius: 4px;
+    padding: 2px; /* smaller padding */
+    border-radius: 3px;
   }
 
   .custom-caption {
-    padding-top: 5px; /* smaller spacing */
+    padding-top: 3px; /* smaller spacing */
     font-size: 1em;   /* slightly smaller font */
   }
 </style>
