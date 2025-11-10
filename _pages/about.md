@@ -104,10 +104,10 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
  <div class="custom-grid">
 
   <div class="custom-card">
-    <a href="/pinn/">
-      <img src="/files/pinn.png" alt="PINNs">
+    <a href="/brightmagnetars/">
+      <img src="/files/brightmagnetars.png" alt="bright magnetars">
       <div class="custom-caption">
-        <strong>Interior–Magnetosphere Coupling with PINNs</strong>
+        <strong>How Bright Can Old Magnetars Be?</strong>
       </div>
     </a>
   </div>
@@ -117,6 +117,31 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
       <img src="/files/eos_finiteT.png" alt="Finite-temperature EOS">
       <div class="custom-caption">
         <strong>Finite-Temperature Nuclear EOS</strong>
+      </div>
+    </a>
+  </div>
+
+</div>
+
+
+<div style="clear: both;"></div>
+
+ <div class="custom-grid">
+
+  <div class="custom-card">
+    <a href="/pinn/">
+      <img src="/files/pinn.png" alt="PINNs">
+      <div class="custom-caption">
+        <strong>Interior–Magnetosphere Coupling with PINNs</strong>
+      </div>
+    </a>
+  </div>
+
+  <div class="custom-card">
+    <a href="/lpt/">
+      <img src="/files/lpt.png" alt="LPTs">
+      <div class="custom-caption">
+        <strong>Long-Period Transients</strong>
       </div>
     </a>
   </div>
