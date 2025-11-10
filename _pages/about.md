@@ -22,6 +22,7 @@ redirect_from:
     text-align: center;
     transition: transform 0.2s ease;
     padding: 5px; /* reduced padding */
+    max-height: 300px;
   }
 
   .custom-card:hover {
@@ -32,9 +33,9 @@ redirect_from:
   .custom-card img {
     width: 100%;
     aspect-ratio: 1 / 1; /* forces square */
-    object-fit: contain;  /* show entire image */
+    object-fit: cover;  /* show entire image */
     background: #ffffff;  /* optional: neutral background */
-    padding: 5px;        /* reduced padding inside image */
+    padding: 2px;        /* reduced padding inside image */
     border-radius: 6px;
   }
 
