@@ -55,7 +55,7 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
 
   <div class="custom-card">
     <a href="/matins/">
-      <img src="/files/MATINSlogo.svg" alt="MATINS project">
+      <img src="/files/MATINSlogo.png" alt="MATINS project">
       <div class="custom-caption">
         <strong>MATINS Code</strong>
       </div>
