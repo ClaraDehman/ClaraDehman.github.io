@@ -3,7 +3,7 @@ permalink: /contrainteos/
 title: "Constraint on Dense Matter Equation of State"
 author_profile: true
 redirect_from: 
-  - /cme.html
+  - /constrainteos.html
 ---
 
  <p style="text-align: justify;">
