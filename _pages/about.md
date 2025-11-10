@@ -28,13 +28,15 @@ redirect_from:
     transform: scale(1.03);
   }
 
-  /* Square images */
-  .custom-card img {
-    width: 100%;
-    aspect-ratio: 1 / 1; /* forces square */
-    object-fit: cover;   /* crop nicely */
-    border-radius: 6px;
-  }
+/* Square images */
+.custom-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* forces square */
+  object-fit: contain;  /* show entire image */
+  background: #ffffff;  /* optional: neutral background */
+  padding: 10px;        /* optional: adds some space inside the square */
+  border-radius: 6px;
+}
 
   .custom-caption {
     padding-top: 10px;
