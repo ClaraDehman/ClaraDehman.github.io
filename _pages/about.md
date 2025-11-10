@@ -30,7 +30,7 @@ redirect_from:
 
   .custom-card img {
     width: 100%;
-    height: 120px;
+    height: 240px;
     object-fit: contain;
     background: #fff;
     padding: 2px; /* smaller padding */
