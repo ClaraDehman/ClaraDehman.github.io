@@ -17,7 +17,7 @@ In this work, we re-analyzed XMM-Newton and Chandra observations of dozens of is
 <!-- IMAGE floated to the right -->
 <img src="/files/pie_constraintEOS.png"
      alt="Constraints on equations of state"
-     style="float:right; width:60%; margin-left:20px; border-radius:6px;">
+     style="float:right; width:70%; margin-left:20px; border-radius:6px;">
 
 <p style="text-align: justify;">
   To rigorously determine which scenarios best matched the observations, we applied machine learning techniques to compare our simulations with the data in a multi-dimensional parameter space, including thermal luminosity, spin period, spin-down rate, and source age. This approach allowed us to quantify which combinations of mass, magnetic field, and EoS are compatible with the cold neutron stars, confirming that EoSs lacking fast cooling mechanisms are strongly disfavored. We found that only EoSs (and compositions) permitting a rapid cooling process within the first few thousand years can reproduce the thermal emission of all sources in our sample.
