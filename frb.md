@@ -17,7 +17,7 @@ This mechanism naturally explains the episodic nature of magnetar outbursts and 
 <!-- IMAGE floated to the right -->
 <img src="/files/frb.png"
      alt="Constraints on equations of state"
-     style="float:right; width:40%; margin-left:20px; border-radius:6px;">
+     style="float:right; width:50%; margin-left:20px; border-radius:6px;">
 
 <p style="text-align: justify;">
 Our results indicate that magnetar activity is primarily governed by the magnetic energy stored in the crust rather than by the surface dipole field. While earlier studies associated outburst rates and intensities with the spin-down–inferred dipole, our simulations show that activity rates can vary by orders of magnitude depending on the structure of the internal field. Even neutron stars with moderate dipoles can accumulate substantial magnetic energy in buried toroidal and higher-order multipolar components. The evolution and reconfiguration of this internal field generate magnetic stresses that trigger crustal failures. Consequently, the total crustal magnetic energy provides a far more reliable predictor of bursting activity than the dipole alone, explaining outbursts in low-dipole-field magnetars and some apparently ordinary pulsars. These results highlight that magnetar activity is controlled by the hidden internal energy reservoir, not merely by the observable dipole component.
