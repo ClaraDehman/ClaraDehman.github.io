@@ -11,7 +11,7 @@ In this letter (Dehman et al. 2020, ApJL 902, L32), we investigated the long-ter
   </p>
 
  <p style="text-align: justify;">
-This mechanism naturally explains the episodic nature of magnetar outbursts and provides a physical link between the internal magnetic evolution and the short-timescale phenomena observed across the electromagnetic spectrum. In particular, the rapid magnetic energy release and subsequent reconfiguration could act as the trigger for fast radio bursts (FRBs) associated with magnetars, connecting the long-term magnetic evolution of neutron stars to their most extreme and transient manifestations.
+This mechanism naturally explains the episodic nature of magnetar outbursts and provides a physical link between the internal magnetic evolution and the short-timescale phenomena observed across the electromagnetic spectrum. In particular, the rapid magnetic energy release and subsequent reconfiguration could act as the trigger for fast radio bursts (FRBs) associated with magnetars, connecting the long-term magnetic evolution of magnetars to their most extreme and transient manifestations.
   </p>
 
 <!-- IMAGE floated to the right -->
@@ -20,9 +20,13 @@ This mechanism naturally explains the episodic nature of magnetar outbursts and 
      style="float:right; width:40%; margin-left:20px; border-radius:6px;">
 
 <p style="text-align: justify;">
-Our results demonstrate that crustal magnetic energy, rather than the external dipole field strength, plays the dominant role in powering magnetar activity. Earlier studies often linked outburst frequency and intensity to the surface dipolar field inferred from spin-down measurements. In contrast, our simulations reveal that even neutron stars with moderate dipole fields can accumulate large amounts of magnetic energy in their crustal layers, particularly within buried toroidal and higher-order multipolar components. It is the evolution and reorganization of this internal field that ultimately drives the buildup of magnetic stresses and triggers crustal failures. This framework naturally explains the bursting activity observed in low-dipole-field magnetars and some apparently ordinary pulsars, emphasizing that magnetic activity is controlled by the hidden internal magnetic energy reservoir, not solely by the observable dipole strength.
+Our results indicate that magnetar activity is primarily governed by the magnetic energy stored in the crust rather than by the surface dipole field. While earlier studies associated outburst rates and intensities with the spin-down–inferred dipole, our simulations show that activity rates can vary by orders of magnitude depending on the structure of the internal field. Even neutron stars with moderate dipoles can accumulate substantial magnetic energy in buried toroidal and higher-order multipolar components. The evolution and reconfiguration of this internal field generate magnetic stresses that trigger crustal failures. Consequently, the total crustal magnetic energy provides a far more reliable predictor of bursting activity than the dipole alone, explaining outbursts in low-dipole-field magnetars and some apparently ordinary pulsars. These results highlight that magnetar activity is controlled by the hidden internal energy reservoir, not merely by the observable dipole component.
 </p>
 
 <!-- Clears the float so the lower text doesn't wrap around -->
 <div style="clear: both;"></div>
+
+ <p style="text-align: justify;">
+Our work highlights a connection between magnetar crustal activity and fast radio bursts (FRBs). Only a small fraction of magnetar crustal failures need to be observable to explain the FRBs detected across the sky. Similarly, young magnetars in our Galaxy show X-ray outbursts at rates consistent with our predictions. This suggests a common origin for these events: crustal triggers within magnetars, which can produce both Galactic outbursts and the fastest, most energetic radio bursts.
+ </p>
 
