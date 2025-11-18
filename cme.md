@@ -16,7 +16,7 @@ redirect_from:
 <!-- IMAGE floated to the right -->
 <img src="/files/inverse_cascade.png"
      alt="inverse-cascade"
-     style="float:right; width:65%; margin-left:20px; border-radius:6px;">
+     style="float:right; width:45%; margin-left:20px; border-radius:6px;">
      
    <p style="text-align: justify;">
      Magnetic helicity, which quantifies the linkage and twist of field lines and couples poloidal and toroidal components, plays a central role in transferring magnetic energy across scales and may underlie the formation of large-scale dipolar fields (Frisch el al (1975), Brandenburg (2020)). Despite its importance, helicity has been largely overlooked in studies of NS magnetic field evolution. In collaboration with Prof. Brandenburg (Nordita, Sweden), I studied magnetic helicity under the non-linear Hall effect in the NS crust using the Pencil Code and MATINS (Dehman & Brandenburg, A&A 694, A39, 2025). While helicity drives an inverse cascade, transferring energy from small to large scales, the crust’s limited thickness (~1 km) constrains strong dipole formation. Nonetheless, this process is crucial, as small-scale structures—otherwise prone to rapid Ohmic decay—reorganize into larger-scale fields that persist over long timescales.
@@ -28,7 +28,7 @@ redirect_from:
 <!-- IMAGE floated to the right -->
 <img src="/files/CME_dipolegrowth.png"
      alt="CME"
-     style="float:right; width:50%; margin-left:20px; border-radius:6px;">
+     style="float:right; width:55%; margin-left:20px; border-radius:6px;">
 
 
   <p style="text-align: justify;">
