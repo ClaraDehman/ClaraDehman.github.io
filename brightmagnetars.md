@@ -17,7 +17,7 @@ Using magnetothermal simulations, we investigate how different magnetic-field ge
 <!-- IMAGE floated to the right -->
 <img src="/files/brightmagnetars_comparison.png"
      alt="bright magnetars or not"
-     style="float:right; width:95%; margin-left:20px; border-radius:6px;">
+     style="float:block; width:95%; margin-left:20px; border-radius:6px;">
      
   <p style="text-align: justify;">  
   These differences manifest clearly in the cooling history. During the early neutrino-cooling era, when photon emission is still negligible, the star’s luminosity is primarily determined by the envelope model: improved microphysical prescriptions or light-element compositions lead to systematically higher effective temperatures. However, once the star enters the photon-cooling era, this trend reverses. Models with hotter envelopes radiate energy more efficiently and therefore cool much faster. As a result, magnetars with core-threading magnetic fields experience a rapid luminosity drop—becoming surprisingly faint, even compared to rotation-powered pulsars of similar age. Conversely, crust-confined magnetars maintain elevated luminosities for far longer, sustained by continuous Joule heating in the outer crust, which counteracts the rapid photon losses.
