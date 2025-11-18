@@ -28,8 +28,10 @@ The PINN approach accurately reproduces the analytical vacuum (current-free) sol
 The main astrophysical innovation of this work is the coupling of the PINN-computed magnetospheric solution to a two-dimensional magneto-thermal evolution code for the neutron-star crust. Traditionally, enforcing external boundary conditions requires solving a global elliptic problem at every timestep—significantly slowing long-term simulations. With our trained PINN, the magnetosphere can be computed essentially instantaneously at each timestep, supplying magnetic-field values in the exterior ghost cells while the crust evolves. This allows magneto-thermal simulations to explore both vacuum and force-free magnetospheric boundary conditions with minimal computational overhead.
 </p>
 
-<video src="/files/coupling.mov" autoplay loop muted playsinline style="float:right;
-  width:90%; margin-left:20px; border-radius:6px;"></video>
+<video src="/files/coupling.mov" autoplay loop muted playsinline
+       style="float:right; width:90%; margin-left:20px; border-radius:6px;"></video>
+
+<div style="clear: both;"></div>
 
 
   <p style="text-align: justify;">
