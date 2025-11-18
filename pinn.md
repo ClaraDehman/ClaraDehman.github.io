@@ -9,7 +9,7 @@ redirect_from:
 <!-- IMAGE floated to the right -->
 <img src="/files/NN.png"
      alt="PINN"
-     style="float:right; width:65%; margin-left:20px; border-radius:6px;">
+     style="float:right; width:55%; margin-left:20px; border-radius:6px;">
 
 <p style="text-align: justify;">
 In this work, we develop a physics-informed neural network (PINN) capable of solving the Grad–Shafranov equation for neutron-star magnetospheres under general boundary conditions and source terms. Unlike traditional PINNs, which are trained for a single fixed boundary value problem, our network takes as input not only the spatial coordinates but also a compact set of coefficients describing the surface magnetic-field multipoles and the toroidal current profile. This enables the same trained network to generate accurate solutions for a wide family of boundary conditions without retraining. Although this generalized training increases the dimensionality and computational cost, the resulting model can evaluate new magnetospheric configurations orders of magnitude faster than classical elliptic solvers.
