@@ -27,7 +27,7 @@ Below this limiting temperature, the inner crust exhibits two distinct transitio
 <!-- IMAGE floated to the right -->
 <img src="/files/MR.png"
      alt="Mass-radius"
-     style="float:right; width:45%; margin-left:20px; border-radius:6px;">
+     style="float:right; width:55%; margin-left:20px; border-radius:6px;">
 
 <p style="text-align: justify;">
 Using these EOSs, we compute mass–radius relations for isothermal neutron stars at different temperatures. We find that while the maximum mass changes only slightly with temperature, stellar radii increase significantly as the star becomes hotter, making hot neutron stars more extended and less compact. Crucially, the results show that including a hot inner crust is essential: using a cold crust together with a hot core severely underestimates the radius inflation caused by thermal effects. This work therefore provides a fully unified finite-temperature EOS and highlights the important role of the hot crust in modeling late-stage proto-neutron stars and the post-merger event forming a hot neutron star.
