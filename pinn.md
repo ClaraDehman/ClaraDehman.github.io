@@ -29,7 +29,7 @@ The main astrophysical innovation of this work is the coupling of the PINN-compu
 </p>
 
 <video src="/files/coupling.mov" autoplay loop muted playsinline
-       style="float:right; width:90%; margin-left:20px; border-radius:6px;"></video>
+       style="display:block; margin:0 auto; width:90%; border-radius:6px;"></video>
 
 <div style="clear: both;"></div>
 
