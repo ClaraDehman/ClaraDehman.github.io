@@ -12,7 +12,7 @@ This work (Dehman et al., A&A 687, A236 (2024)) extends the BCPM nuclear energy-
 
   
 <!-- IMAGE floated to the right -->
-<img src="/files/eos_diagram.png"
+<img src="/files/EOS_diagram.png"
      alt="EOS diagram"
      style="float:right; width:65%; margin-left:20px; border-radius:6px;">
 
