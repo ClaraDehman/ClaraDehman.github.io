@@ -23,15 +23,15 @@ Once the crust cools sufficiently, the Hall effect abruptly accelerates magnetic
 <!-- Clears the float so the lower text doesn't wrap around -->
 <div style="clear: both;"></div>
 
-  <p style="text-align: justify;">
-A key result of this work is that crustal failures do more than just activate radio emission: they dramatically accelerate spin-down, the gradual loss of rotational energy that makes neutron stars slow over time. Ordinarily, a pulsar spins down smoothly as electromagnetic waves carry angular momentum away from the rotating magnetic field. However, during a crustal failure, the star’s magnetic structure changes abruptly. Newly twisted magnetic field lines become open or distorted, enhancing torque from the magnetosphere and draining rotational energy much more rapidly than standard dipole braking predicts.  </p>
-
-<!-- IMAGE floated to the right -->
 <img src="/files/LPT_PPdot.png"
      alt="LPTs"
-     style="float:right; width:55%; margin-left:20px; border-radius:6px;">
+     style="float: right; width: 55%; margin: 10px 0 10px 20px; border-radius: 6px;">
+
   <p style="text-align: justify;">
- If even a tiny fraction of the magnetic energy released in a failure (as little as 0.1–1%) goes into this enhanced braking, a neutron star can evolve from typical magnetar spin periods (~seconds) to LPT periods (tens of minutes to hours) within a few million years — without requiring a fallback disk or any binary interaction. In this picture, LPTs naturally emerge as “late-blooming magnetars”: objects that sleep silently for most of their lives, but awaken at old ages with sporadic bursts, cold surfaces, and astonishingly slow rotation. </p>
+A key result of this work is that crustal failures do more than just activate radio emission: they dramatically accelerate spin-down, the gradual loss of rotational energy that makes neutron stars slow over time. Ordinarily, a pulsar spins down smoothly as electromagnetic waves carry angular momentum away from the rotating magnetic field. However, during a crustal failure, the star’s magnetic structure changes abruptly. Newly twisted magnetic field lines become open or distorted, enhancing torque from the magnetosphere and draining rotational energy much more rapidly than standard dipole braking predicts.  If even a tiny fraction of the magnetic energy released in a failure (as little as 0.1–1%) goes into this enhanced braking, a neutron star can evolve from typical magnetar spin periods (~seconds) to LPT periods (tens of minutes to hours) within a few million years — without requiring a fallback disk or any binary interaction. In this picture, LPTs naturally emerge as “late-blooming magnetars”: objects that sleep silently for most of their lives, but awaken at old ages with sporadic bursts, cold surfaces, and astonishingly slow rotation.  </p>
+
+
+
 
 <!-- Clears the float so the lower text doesn't wrap around -->
 <div style="clear: both;"></div>
