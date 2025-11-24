@@ -137,7 +137,7 @@ I am a theoretical and computational astrophysicist, currently a Juan de la Cier
 
   <div class="custom-card">
     <a href="/lpt/">
-      <img src="/files/lpt.png" alt="LPTs">
+      <img src="/files/Activity_Timeline.png" alt="LPTs">
       <div class="custom-caption">
         <strong>Long-Period Transients</strong>
       </div>
