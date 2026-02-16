@@ -4,7 +4,7 @@ collection: publications
 category: published
 permalink: /publication/2025-ultra-long-period-gw
 excerpt: 'Gravitational-wave signatures from ultra-long period neutron stars and prospects for detection with future space-based interferometers.'
-date: 2025-09-23
+date: 2025-09-2
 venue: 'ApJ 991 134'
 paperurl: '/files/ulpsgw.pdf'
 arxivurl: 'https://arxiv.org/abs/2505.06125'
