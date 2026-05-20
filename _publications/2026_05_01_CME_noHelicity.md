@@ -5,7 +5,7 @@ category: submitted
 permalink: /publication/2026-chiral-magnetar-fields
 excerpt: 'Study of the role of chiral anomalies without magnetic helicity in the magnetic-field evolution of magnetars.'
 date: 2026-05-01
-venue: ''
+venue: 'Submitted for publication'
 paperurl: '/files/Dehman2026_CME.pdf'
 arxivurl: 'https://arxiv.org/abs/2605.08068'
 authors: "<strong>22. </strong> <strong><u>C. Dehman</u></strong>"
