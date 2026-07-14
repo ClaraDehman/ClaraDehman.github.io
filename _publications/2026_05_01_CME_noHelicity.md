@@ -1,7 +1,7 @@
 ---
 title: "Magnetar field dynamics driven by chiral anomalies without magnetic helicity"
 collection: publications
-category: in press
+category: press
 permalink: /publication/2026-chiral-magnetar-fields
 excerpt: 'Study of the role of chiral anomalies without magnetic helicity in the magnetic-field evolution of magnetars.'
 date: 2026-05-01
