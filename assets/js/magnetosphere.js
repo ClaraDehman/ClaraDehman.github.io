@@ -108,7 +108,7 @@
 
     // the star
     var g = ctx.createRadialGradient(cx - R * 0.35, cy - R * 0.4, R * 0.1, cx, cy, R);
-    g.addColorStop(0, '#f3f2ff'); g.addColorStop(0.55, '#b8b6e8'); g.addColorStop(1, '#4a4a8a');
+    g.addColorStop(0, '#f2f7ff'); g.addColorStop(0.55, '#b4cbea'); g.addColorStop(1, '#3a5687');
     ctx.fillStyle = g; ctx.beginPath(); ctx.arc(cx, cy, R, 0, Math.PI * 2); ctx.fill();
 
     // polar hotspots where field lines thread the surface

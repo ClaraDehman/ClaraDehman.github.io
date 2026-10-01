@@ -1,48 +1,26 @@
 /* ==========================================================================
    COSMOS — site-specific visual layer for Clara Dehman's site.
    Loaded last in main.scss so it sits on top of the AcademicPages defaults.
-   Palette: magnetosphere indigo, cool paper, field-line blue, hotspot gold.
+   Palette: midnight navy, field-line blue, hotspot gold. Night mode only.
    ========================================================================== */
 
-:root {
-  --c-night        : #0F1236;
-  --c-night-deep   : #090B26;
-  --c-paper        : #F7F8FC;
-  --c-surface      : #FFFFFF;
-  --c-ink          : #1C1E3F;
-  --c-muted        : #5B5F86;
-  --c-rule         : #DCDEEC;
-  --c-link         : #3346C9;
-  --c-link-hover   : #1E2A8C;
-  --c-hl           : #8A5A00;
-  --c-gold         : #F4B740;
-  --c-field        : #8CC8FF;
-  --c-plate        : #FFFFFF;
-
-  --global-bg-color               : var(--c-paper);
-  --global-footer-bg-color        : var(--c-night);
-  --global-text-color             : var(--c-ink);
-  --global-text-color-light       : var(--c-muted);
-  --global-border-color           : var(--c-rule);
-  --global-dark-border-color      : var(--c-rule);
-  --global-link-color             : var(--c-link);
-  --global-link-color-hover       : var(--c-link-hover);
-  --global-link-color-visited     : var(--c-link);
-  --global-masthead-link-color    : var(--c-ink);
-  --global-masthead-link-color-hover : var(--c-link);
-  --global-thead-color            : var(--c-rule);
-}
-
+/* One night palette, used everywhere (the site no longer switches to a light theme).
+   Applied to both selectors so it also wins over the template's own dark block. */
+:root,
 html[data-theme="dark"] {
-  --c-paper        : #0F1236;
-  --c-plate        : #FFFFFF;
-  --c-surface      : #161A48;
-  --c-ink          : #E3E4F5;
-  --c-muted        : #A0A4CC;
-  --c-rule         : #2B3068;
-  --c-link         : #A9BBFF;
-  --c-link-hover   : #DCE3FF;
-  --c-hl           : #F4B740;
+  --c-night        : #0B1A33;   /* midnight navy: page and hero */
+  --c-night-deep   : #06101F;   /* footer, bottom of hero */
+  --c-paper        : #0B1A33;
+  --c-surface      : #11233F;   /* raised panels (mobile menus) */
+  --c-ink          : #E6ECF7;   /* main text */
+  --c-muted        : #9FB0CC;   /* secondary text */
+  --c-rule         : #1F3456;   /* hairlines and borders */
+  --c-link         : #8FC3FF;
+  --c-link-hover   : #D2E6FF;
+  --c-hl           : #E9B949;   /* hotspot gold: dates, honours */
+  --c-gold         : #E9B949;
+  --c-field        : #8CC8FF;   /* field-line blue */
+  --c-plate        : #FFFFFF;   /* figures keep their white background */
 
   --global-bg-color               : var(--c-paper);
   --global-footer-bg-color        : var(--c-night-deep);
@@ -56,8 +34,9 @@ html[data-theme="dark"] {
   --global-masthead-link-color    : var(--c-ink);
   --global-masthead-link-color-hover : var(--c-link);
   --global-thead-color            : var(--c-rule);
-  --global-code-background-color  : #1B1F52;
-  --global-code-text-color        : #E3E4F5;
+  --global-code-background-color  : #11233F;
+  --global-code-text-color        : #E6ECF7;
+  color-scheme: dark;
 }
 
 $display: "Newsreader", Georgia, serif;
@@ -163,9 +142,9 @@ hr { border: 0; border-top: 1px solid var(--c-rule); }
   align-items: center;
   min-height: clamp(540px, 80vh, 780px);
   overflow: hidden;
-  color: #ECEEFF;
+  color: #EEF3FB;
   background:
-    radial-gradient(ellipse 60% 70% at 70% 50%, #1D2262 0%, rgba(29, 34, 98, 0) 70%),
+    radial-gradient(ellipse 60% 70% at 70% 50%, #173661 0%, rgba(23, 54, 97, 0) 70%),
     linear-gradient(180deg, var(--c-night) 0%, var(--c-night-deep) 100%);
   isolation: isolate;
 
@@ -201,13 +180,13 @@ hr { border: 0; border-top: 1px solid var(--c-rule); }
     margin: 0 0 0.9rem;
     font-size: clamp(1.15rem, 1.8vw, 1.45rem);
     line-height: 1.45;
-    color: #D6D9F7;
+    color: #D3DEF0;
   }
 
   &__role {
     margin: 0 0 2.2rem;
     font-size: 0.95rem;
-    color: #9EA4DA;
+    color: #93A7C8;
   }
 
   &__links {
@@ -222,13 +201,13 @@ hr { border: 0; border-top: 1px solid var(--c-rule); }
     padding: 0.7em 1.25em;
     border-radius: 999px;
     border: 1px solid rgba(140, 200, 255, 0.45);
-    color: #E4ECFF;
+    color: #E3EDFB;
     font-size: 0.95rem;
     font-weight: 500;
     text-decoration: none;
     transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
 
-    &:visited { color: #E4ECFF; }
+    &:visited { color: #E3EDFB; }
     &:hover {
       color: #FFFFFF;
       border-color: var(--c-field);
@@ -239,12 +218,12 @@ hr { border: 0; border-top: 1px solid var(--c-rule); }
     &--primary:visited {
       background: var(--c-gold);
       border-color: var(--c-gold);
-      color: #1B1533;
+      color: #0B1A33;
     }
     &--primary:hover {
-      background: #FFCB63;
-      border-color: #FFCB63;
-      color: #1B1533;
+      background: #F3C866;
+      border-color: #F3C866;
+      color: #0B1A33;
     }
   }
 
@@ -256,7 +235,7 @@ hr { border: 0; border-top: 1px solid var(--c-rule); }
     font-family: $display;
     font-style: italic;
     font-size: 0.85rem;
-    color: rgba(200, 210, 255, 0.55);
+    color: rgba(190, 210, 240, 0.55);
   }
 
   @media (max-width: 899px) {
@@ -541,17 +520,17 @@ h2 + .pub { border-top: 0; padding-top: 0.25rem; }
 
 .page__footer {
   background: var(--c-night);
-  color: #A8ACD6;
+  color: #9FB0CC;
   border-top: 0;
 
-  a, a:visited { color: #CBD3FF; }
+  a, a:visited { color: #C9DCF5; }
   a:hover { color: #FFFFFF; }
 
   .social-icons .fa,
   .social-icons .fas { color: var(--c-gold); }
 }
 
-.page__footer-copyright { color: #8D92C2; }
+.page__footer-copyright { color: #7F92B3; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; animation: none !important; }
