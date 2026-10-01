@@ -15,36 +15,36 @@ I am a theoretical and computational astrophysicist and currently a Juan de la C
 <h2 id="research" class="section-title">Research highlights</h2>
 
 <div class="plates">
-  <a class="plate plate--feature" href="/matins/">
-    <span class="plate__figure"><img src="/files/MATINSlogo.png" alt="MATINS project logo" loading="lazy"></span>
+  <a class="plate" href="/matins/">
+    <span class="plate__figure"><img src="/files/thumbs/MATINSlogo.webp" width="1200" height="581" decoding="async" alt="MATINS project logo" loading="lazy"></span>
     <span class="plate__title">The MATINS code</span>
   </a>
   <a class="plate" href="/cme/">
-    <span class="plate__figure"><img src="/files/InverseCascade.jpg" alt="Helicity CME" loading="lazy"></span>
+    <span class="plate__figure"><img src="/files/thumbs/InverseCascade.webp" width="400" height="570" decoding="async" alt="Helicity CME" loading="lazy"></span>
     <span class="plate__title">Magnetar formation, helicity, and the chiral magnetic effect</span>
   </a>
   <a class="plate" href="/contrainteos/">
-    <span class="plate__figure"><img src="/files/constraint_eos.png" alt="Dense matter EOS" loading="lazy"></span>
+    <span class="plate__figure"><img src="/files/thumbs/constraint_eos.webp" width="729" height="570" decoding="async" alt="Dense matter EOS" loading="lazy"></span>
     <span class="plate__title">Constraints on the dense-matter equation of state</span>
   </a>
   <a class="plate" href="/frb/">
-    <span class="plate__figure"><img src="/files/frb.png" alt="Magnetic stresses and FRBs" loading="lazy"></span>
+    <span class="plate__figure"><img src="/files/thumbs/frb.webp" width="760" height="568" decoding="async" alt="Magnetic stresses and FRBs" loading="lazy"></span>
     <span class="plate__title">Magnetic stresses and fast radio bursts</span>
   </a>
   <a class="plate" href="/brightmagnetars/">
-    <span class="plate__figure"><img src="/files/brightmagnetars.png" alt="Bright magnetars" loading="lazy"></span>
+    <span class="plate__figure"><img src="/files/thumbs/brightmagnetars.webp" width="760" height="563" decoding="async" alt="Bright magnetars" loading="lazy"></span>
     <span class="plate__title">How bright can old magnetars be?</span>
   </a>
   <a class="plate" href="/finitetempeos/">
-    <span class="plate__figure"><img src="/files/eos_finiteT.png" alt="Finite-temperature EOS" loading="lazy"></span>
+    <span class="plate__figure"><img src="/files/thumbs/eos_finiteT.webp" width="760" height="569" decoding="async" alt="Finite-temperature EOS" loading="lazy"></span>
     <span class="plate__title">Finite-temperature nuclear equation of state</span>
   </a>
   <a class="plate" href="/pinn/">
-    <span class="plate__figure"><img src="/files/pinn.png" alt="PINNs" loading="lazy"></span>
+    <span class="plate__figure"><img src="/files/thumbs/pinn.webp" width="592" height="570" decoding="async" alt="PINNs" loading="lazy"></span>
     <span class="plate__title">Interior–magnetosphere coupling with PINNs</span>
   </a>
   <a class="plate" href="/lpt/">
-    <span class="plate__figure"><img src="/files/Activity_Timeline.png" alt="LPTs" loading="lazy"></span>
+    <span class="plate__figure"><img src="/files/thumbs/Activity_Timeline.webp" width="395" height="570" decoding="async" alt="LPTs" loading="lazy"></span>
     <span class="plate__title">Long-period transients</span>
   </a>
 </div>
