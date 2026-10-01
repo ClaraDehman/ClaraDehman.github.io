@@ -1,148 +1,50 @@
 ---
 permalink: /
 title: "Research Highlights"
+layout: home
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-<style>
-  .custom-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* smaller min width */
-    gap: 20px;
-    margin-top: 20px;
-  }
-
-  .custom-card {
-    border-radius: 6px;
-    overflow: hidden;
-    background: #f7f7f7;
-    text-align: center;
-    transition: transform 0.2s ease;
-    padding: 5px; /* smaller padding */
-  }
-
-  .custom-card:hover {
-    transform: scale(1.03);
-  }
-
-  .custom-card img {
-    width: 100%;
-    height: 240px;
-    object-fit: contain;
-    background: #fff;
-    padding: 2px; /* smaller padding */
-    border-radius: 3px;
-  }
-
-  .custom-caption {
-    padding-top: 3px; /* smaller spacing */
-    font-size: 1em;   /* slightly smaller font */
-  }
-</style>
-
-
-<p style="text-align: justify;">
+<p class="intro">
 I am a theoretical and computational astrophysicist and currently a Juan de la Cierva Fellow in Spain. My research focuses on neutron stars, compact stellar remnants whose densities are so extreme that a teaspoon of their material would exceed the mass of a mountain. These objects are observed across the electromagnetic spectrum, yet fully understanding their behavior requires modeling the complex interplay between magnetic fields, heat transport, and ultra-dense matter in their interiors. To investigate these extreme physical regimes, I employ large-scale, high-performance numerical simulations.
 </p>
 
-<div style="clear: both;"></div>
+<h2 id="research" class="section-title">Research highlights</h2>
 
-
-<div class="custom-grid">
-
-  <div class="custom-card">
-    <a href="/matins/">
-      <img src="/files/MATINSlogo.png" alt="MATINS project">
-      <div class="custom-caption">
-        <strong>MATINS Code</strong>
-      </div>
-    </a>
-  </div>
-
-  <div class="custom-card">
-    <a href="/cme/">
-      <img src="/files/InverseCascade.jpg" alt="Helicity CME">
-      <div class="custom-caption">
-        <strong>Magnetar Formation, Helicity, and the Chiral Magnetic Effect</strong>
-      </div>
-    </a>
-  </div>
-
+<div class="plates">
+  <a class="plate plate--feature" href="/matins/">
+    <span class="plate__figure"><img src="/files/MATINSlogo.png" alt="MATINS project logo" loading="lazy"></span>
+    <span class="plate__title">The MATINS code</span>
+  </a>
+  <a class="plate" href="/cme/">
+    <span class="plate__figure"><img src="/files/InverseCascade.jpg" alt="Helicity CME" loading="lazy"></span>
+    <span class="plate__title">Magnetar formation, helicity, and the chiral magnetic effect</span>
+  </a>
+  <a class="plate" href="/contrainteos/">
+    <span class="plate__figure"><img src="/files/constraint_eos.png" alt="Dense matter EOS" loading="lazy"></span>
+    <span class="plate__title">Constraints on the dense-matter equation of state</span>
+  </a>
+  <a class="plate" href="/frb/">
+    <span class="plate__figure"><img src="/files/frb.png" alt="Magnetic stresses and FRBs" loading="lazy"></span>
+    <span class="plate__title">Magnetic stresses and fast radio bursts</span>
+  </a>
+  <a class="plate" href="/brightmagnetars/">
+    <span class="plate__figure"><img src="/files/brightmagnetars.png" alt="Bright magnetars" loading="lazy"></span>
+    <span class="plate__title">How bright can old magnetars be?</span>
+  </a>
+  <a class="plate" href="/finitetempeos/">
+    <span class="plate__figure"><img src="/files/eos_finiteT.png" alt="Finite-temperature EOS" loading="lazy"></span>
+    <span class="plate__title">Finite-temperature nuclear equation of state</span>
+  </a>
+  <a class="plate" href="/pinn/">
+    <span class="plate__figure"><img src="/files/pinn.png" alt="PINNs" loading="lazy"></span>
+    <span class="plate__title">Interior–magnetosphere coupling with PINNs</span>
+  </a>
+  <a class="plate" href="/lpt/">
+    <span class="plate__figure"><img src="/files/Activity_Timeline.png" alt="LPTs" loading="lazy"></span>
+    <span class="plate__title">Long-period transients</span>
+  </a>
 </div>
-
-<div style="clear: both;"></div>
-
-<div class="custom-grid">
-
-  <div class="custom-card">
-    <a href="/contrainteos/">
-      <img src="/files/constraint_eos.png" alt="Dense Matter EOS">
-      <div class="custom-caption">
-        <strong>Constraint on Dense Matter Equation of State</strong>
-      </div>
-    </a>
-  </div>
-
-  <div class="custom-card">
-    <a href="/frb/">
-      <img src="/files/frb.png" alt="Magnetic Stresses & FRBs">
-      <div class="custom-caption">
-        <strong>Magnetic Stresses & Fast Radio Bursts</strong>
-      </div>
-    </a>
-  </div>
-
-</div>
-
-<div style="clear: both;"></div>
-
- <div class="custom-grid">
-
-  <div class="custom-card">
-    <a href="/brightmagnetars/">
-      <img src="/files/brightmagnetars.png" alt="bright magnetars">
-      <div class="custom-caption">
-        <strong>How Bright Can Old Magnetars Be?</strong>
-      </div>
-    </a>
-  </div>
-
-  <div class="custom-card">
-    <a href="/finitetempeos/">
-      <img src="/files/eos_finiteT.png" alt="Finite-temperature EOS">
-      <div class="custom-caption">
-        <strong>Finite-Temperature Nuclear EOS</strong>
-      </div>
-    </a>
-  </div>
-
-</div>
-
-
-<div style="clear: both;"></div>
-
- <div class="custom-grid">
-
-  <div class="custom-card">
-    <a href="/pinn/">
-      <img src="/files/pinn.png" alt="PINNs">
-      <div class="custom-caption">
-        <strong>Interior–Magnetosphere Coupling with PINNs</strong>
-      </div>
-    </a>
-  </div>
-
-  <div class="custom-card">
-    <a href="/lpt/">
-      <img src="/files/Activity_Timeline.png" alt="LPTs">
-      <div class="custom-caption">
-        <strong>Long-Period Transients</strong>
-      </div>
-    </a>
-  </div>
-
-</div>
-

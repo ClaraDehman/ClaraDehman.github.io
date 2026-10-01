@@ -1,0 +1,15 @@
+{% include base_path %}
+<header class="hero" aria-labelledby="hero-name">
+  <canvas id="magnetosphere" class="hero__canvas" aria-hidden="true"></canvas>
+  <div class="hero__inner">
+    <h1 id="hero-name" class="hero__name">{{ site.author.name }}</h1>
+    <p class="hero__lede">I simulate how magnetic fields, heat and ultra-dense matter evolve inside neutron stars.</p>
+    <p class="hero__role">{{ site.author.bio }}, University of Alicante</p>
+    <nav class="hero__links" aria-label="Quick links">
+      <a class="hero__btn hero__btn--primary" href="#research">Explore my research</a>
+      <a class="hero__btn" href="{{ base_path }}/publications/">Publications</a>
+      <a class="hero__btn" href="{{ base_path }}/files/ClaraDehman_CV.pdf">Download CV</a>
+    </nav>
+  </div>
+  <p class="hero__caption">A magnetar’s twisted dipole field, simulated live in your browser.</p>
+</header>

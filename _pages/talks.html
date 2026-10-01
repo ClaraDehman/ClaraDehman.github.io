@@ -8,26 +8,30 @@ author_profile: true
 <p>This list includes <strong><u>20 invited</u></strong> and <strong><u>14 contributed</u></strong> presentations.</p>
 
 <h2>Invited Talks</h2>
-<ul style="padding-left:1.2em; margin-top:0.5em; font-size:0.9rem; line-height:1.25;">
+<ul class="talk-list">
 {% for talk in site.talks reversed %}
   {% if talk.category == "invited" %}
-    <li style="margin-bottom:5px;"> <!-- increased spacing -->
-      <strong>{{ talk.title }}</strong>
-      — <span style="color:#555;">{{ talk.venue }}</span>
-      (<span style="color:#d14;">{{ talk.country }}, {{ talk.date | date: "%Y" }}</span>)
+    <li>
+      <span class="talk-list__when">{{ talk.date | date: "%Y" }}</span>
+      <span class="talk-list__body">
+        <strong class="talk-list__title">{{ talk.title }}</strong>
+        <span class="talk-list__venue">{{ talk.venue }}, {{ talk.country }}</span>
+      </span>
     </li>
   {% endif %}
 {% endfor %}
 </ul>
 
 <h2>Contributed Talks</h2>
-<ul style="padding-left:1.2em; margin-top:0.5em; font-size:0.9rem; line-height:1.25;">
+<ul class="talk-list">
 {% for talk in site.talks reversed %}
   {% if talk.category == "contributed" %}
-    <li style="margin-bottom:5px;">
-      <strong>{{ talk.title }}</strong>
-      — <span style="color:#555;">{{ talk.venue }}</span>
-      (<span style="color:#d14;">{{ talk.country }}, {{ talk.date | date: "%Y" }}</span>)
+    <li>
+      <span class="talk-list__when">{{ talk.date | date: "%Y" }}</span>
+      <span class="talk-list__body">
+        <strong class="talk-list__title">{{ talk.title }}</strong>
+        <span class="talk-list__venue">{{ talk.venue }}, {{ talk.country }}</span>
+      </span>
     </li>
   {% endif %}
 {% endfor %}

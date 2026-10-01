@@ -1,0 +1,21 @@
+---
+layout: default
+author_profile: true
+---
+
+{% include base_path %}
+{% include home-hero.html %}
+
+<div id="main" class="main--home" role="main">
+  {% include sidebar.html %}
+
+  <article class="page page--home" itemscope itemtype="http://schema.org/CreativeWork">
+    <div class="page__inner-wrap">
+      <section class="page__content" itemprop="text">
+        {{ content }}
+      </section>
+    </div>
+  </article>
+</div>
+
+<script src="{{ base_path }}/assets/js/magnetosphere.js" defer></script>

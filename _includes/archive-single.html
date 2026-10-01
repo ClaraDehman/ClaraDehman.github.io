@@ -1,4 +1,4 @@
-<p>
+<p class="pub">
   {% if post.authors %}{{ post.authors | markdownify | remove: '<p>' | remove: '</p>' }}, {% endif %}
   <strong>{{ post.title }}</strong>, <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}.
   {% if post.paperurl %}<a href="{{ post.paperurl }}">PDF</a>{% endif %}
