@@ -760,6 +760,8 @@ h2 + .pub { border-top: 0; padding-top: 0; }
 
 /* Plot with a soft blue paper instead of bright white */
 .topic-figure.topic-figure--plot { background: #DDE6F2; }
+/* Videos can't be re-tinted in advance: blend their white into the card colour */
+.topic-figure--blend .topic-figure__media { mix-blend-mode: multiply; }
 
 /* Result figure under the paragraph */
 .topic-figure.topic-figure--result {
