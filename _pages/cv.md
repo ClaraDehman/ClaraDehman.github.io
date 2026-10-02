@@ -12,7 +12,7 @@ redirect_from:
 <div class="cv">
 <div class="cv__main">
 
-<p class="archive__lede">My academic path in brief. The full CV, with funding, teaching and service, is available as a PDF.</p>
+<p class="archive__lede">My academic path in brief. The full CV is available as a PDF.</p>
 
 <p class="cv__download">
   <a class="btn-cv" href="{{ base_path }}/files/ClaraDehman_CV.pdf" target="_blank" rel="noopener"><i class="fas fa-file-arrow-down" aria-hidden="true"></i> Download CV (PDF)</a>
