@@ -758,6 +758,9 @@ h2 + .pub { border-top: 0; padding-top: 0; }
   }
 }
 
+/* Wide (landscape) figures get a bit more room */
+.topic-figure.topic-figure--float.topic-figure--wide { width: clamp(260px, 48%, 400px); }
+
 /* Plot with a soft blue paper instead of bright white */
 .topic-figure.topic-figure--plot { background: #DDE6F2; }
 /* Videos can't be re-tinted in advance: blend their white into the card colour */

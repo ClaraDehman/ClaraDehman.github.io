@@ -23,6 +23,10 @@ I am a theoretical and computational astrophysicist and currently a Juan de la C
     <span class="plate__figure"><img src="/files/thumbs/cme-tangled-field.webp" width="360" height="360" decoding="async" alt="3D simulation of a newborn neutron star with a tangled magnetic field" loading="lazy"></span>
     <span class="plate__title">Magnetar formation, helicity, and the chiral magnetic effect</span>
   </a>
+  <a class="plate" href="/brakingindex/">
+    <span class="plate__figure"><img src="/files/thumbs/braking-axis-drift.webp" width="420" height="269" decoding="async" alt="Wandering magnetic axis of a simulated pulsar" loading="lazy"></span>
+    <span class="plate__title">Pulsar braking index</span>
+  </a>
   <a class="plate" href="/contrainteos/">
     <span class="plate__figure"><img src="/files/thumbs/constraint_eos.webp" width="460" height="360" decoding="async" alt="Dense matter EOS" loading="lazy"></span>
     <span class="plate__title">Constraints on the dense-matter equation of state</span>
