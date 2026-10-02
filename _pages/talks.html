@@ -30,7 +30,7 @@ author_profile: true
 
 <figure class="talk-map" aria-labelledby="talk-map-caption">
   <div class="talk-map__canvas">
-    <img src="{{ base_path }}/files/talks-map.webp" width="1335" height="703" alt="" decoding="async">
+    <img src="{{ base_path }}/files/talks-map.webp" width="{{ site.data.talk_map.image.width }}" height="{{ site.data.talk_map.image.height }}" alt="" decoding="async">
     {% comment %} One star per place: the talk's city if known on the map, otherwise its country. {% endcomment %}
     {% assign place_str = "" %}
     {% for t in site.talks %}
