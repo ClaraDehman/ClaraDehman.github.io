@@ -1,0 +1,18 @@
+{%- comment -%}
+Lists the publications named in a topic page's front matter, e.g.
+papers:
+  - /publication/2022-matins-formalism
+Each entry is the `permalink` of a file in _publications/, shown in the same style as the Publications page.
+{%- endcomment -%}
+{%- if page.papers -%}
+<section class="topic-refs">
+<h2>Related publications</h2>
+{%- for u in page.papers -%}
+{%- for post in site.publications -%}
+{%- if post.url == u or post.permalink == u -%}
+{% include archive-single.html %}
+{%- endif -%}
+{%- endfor -%}
+{%- endfor -%}
+</section>
+{%- endif -%}

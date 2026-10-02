@@ -670,6 +670,115 @@ h2 + .pub { border-top: 0; padding-top: 0; }
   .talk-map__star svg { transition: none; }
 }
 
+
+/* ---------- Research topic pages: one paragraph, one figure, references ---------- */
+
+.topic {
+  max-width: 44rem;
+
+  .topic__lede {
+    margin: 0 0 1.1rem;
+    font-size: 1.1rem;
+    line-height: 1.72;
+    color: var(--c-ink);
+  }
+}
+
+.page__content .topic-links, .topic-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.4rem 0 0;
+
+  .page__content & a,
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55em;
+    padding: 0.65em 1.2em;
+    border: 1px solid color-mix(in srgb, var(--c-link) 55%, transparent);
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--c-link) 10%, transparent);
+    font-size: 1rem;
+    font-weight: 500;
+    white-space: nowrap;
+    text-decoration: none;
+    color: var(--c-link-hover);
+    transition: background-color 0.15s ease, border-color 0.15s ease;
+  }
+  .page__content & a:hover,
+  a:hover { background: color-mix(in srgb, var(--c-link) 22%, transparent); border-color: var(--c-link); }
+  i { font-size: 1.1em; }
+}
+
+/* Text on the left, figure on the right */
+.topic--side {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(200px, 250px);
+  gap: 2rem;
+  align-items: start;
+  max-width: none;
+
+  .topic__lede { margin: 0; }
+
+  @media (max-width: 860px) {
+    grid-template-columns: 1fr;
+    .topic-figure { max-width: 360px; margin: 0 auto; }
+  }
+}
+
+/* Figure floated right; the text wraps around it and continues below */
+.topic--wrap {
+  max-width: none;
+  &::after { content: ""; display: block; clear: both; }
+}
+.topic-figure.topic-figure--bare.topic-figure--float {
+  float: right;
+  width: clamp(200px, 32%, 260px);
+  margin: 0.2rem 0 1rem 2rem;
+
+  @media (max-width: 600px) {
+    float: none;
+    width: min(100%, 320px);
+    margin: 0 auto 1.25rem;
+  }
+}
+
+/* Figure that already sits on the page colour: no white plate */
+.topic-figure.topic-figure--bare {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border-radius: 0;
+}
+
+.topic-figure {
+  margin: 1.75rem 0 0.5rem;
+  padding: 14px;
+  background: var(--c-plate);
+  border-radius: 14px;
+  max-width: 640px;
+
+  &__media {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+}
+
+.topic-refs {
+  margin-top: 2.25rem;
+
+  .page__content & h2,
+  h2 {
+    margin: 0 0 0.4rem;
+    font-size: 1.4rem;
+  }
+  h2 + .pub { border-top: 0; }
+  .pub { margin: 0; }
+}
+
 /* ---------- Footer ---------- */
 
 .page__footer {
