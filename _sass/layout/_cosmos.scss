@@ -783,6 +783,13 @@ h2 + .pub { border-top: 0; padding-top: 0; }
   }
 }
 
+/* Full-width figure after the paragraph */
+.topic-figure.topic-figure--bare.topic-figure--full {
+  clear: both;
+  max-width: none;
+  margin: 1.75rem 0 0;
+}
+
 /* Figure that already sits on the page colour: no white plate */
 .topic-figure.topic-figure--bare {
   margin: 0;
