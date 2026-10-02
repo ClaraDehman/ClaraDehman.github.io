@@ -5,11 +5,31 @@ permalink: /publications/
 author_profile: true
 ---
 
+{% comment %}
+  Update these two by hand from Google Scholar. The paper counts below are computed automatically.
+{% endcomment %}
+{% assign citations = "550+" %}
+{% assign h_index = "14" %}
+
+{% assign n_papers = 0 %}{% assign n_first = 0 %}
+{% for p in site.publications %}
+  {% if p.category != "thesis" %}
+    {% assign n_papers = n_papers | plus: 1 %}
+    {% assign after_number = p.authors | split: "</strong>" %}
+    {% assign lead = after_number[1] | strip | slice: 0, 20 %}
+    {% if lead == "<strong><u>C. Dehman" %}{% assign n_first = n_first | plus: 1 %}{% endif %}
+  {% endif %}
+{% endfor %}
+
+<dl class="stats">
+  <div><dt>Papers</dt><dd>{{ n_papers }}</dd></div>
+  <div><dt>First-author</dt><dd>{{ n_first }}</dd></div>
+  <div><dt>Citations</dt><dd>{{ citations }}</dd></div>
+  <div><dt>h-index</dt><dd>{{ h_index }}</dd></div>
+</dl>
+
 {% if site.author.googlescholar %}
-  <div class="wordwrap">
-    A full list of my articles can be found on <a href="{{site.author.googlescholar}}">Google Scholar</a>.<br>
-    <strong>Citations:</strong> 550+ &nbsp;|&nbsp; <strong>h-index:</strong> 14
-  </div>
+<p class="stats__note">Citation metrics from <a href="{{ site.author.googlescholar }}">Google Scholar</a>, where you can also find the full list.</p>
 {% endif %}
 
 

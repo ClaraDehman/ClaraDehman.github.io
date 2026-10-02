@@ -466,29 +466,48 @@ body.layout--home { padding-top: 0; }
   line-height: 1.6;
 }
 
-/* ---------- Talks ---------- */
+/* ---------- Talks: one block per year ---------- */
+
+.talk-year {
+  display: grid;
+  grid-template-columns: 4.5rem 1fr;
+  gap: 1.25rem;
+  padding: 1.1rem 0;
+  border-top: 1px solid var(--c-rule);
+
+  &:first-child { border-top: 0; padding-top: 0.4rem; }
+
+  .archive &__label,
+  &__label {
+    position: sticky;
+    top: 5.5rem;
+    align-self: start;
+    margin: 0.1rem 0 0;
+    font-family: $display;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1;
+    color: var(--c-hl);
+    font-variant-numeric: lining-nums;
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    .archive &__label, &__label { position: static; }
+  }
+}
 
 .talk-list {
   list-style: none;
-  margin: 0.5em 0 0;
+  margin: 0;
   padding: 0;
 
   li {
-    display: grid;
-    grid-template-columns: 3.4rem 1fr;
-    gap: 1rem;
     margin: 0;
-    padding: 0.9rem 0;
-    border-top: 1px solid var(--c-rule);
+    padding: 0 0 0.85rem;
   }
-  li:first-child { border-top: 0; }
-
-  &__when {
-    font-variant-numeric: tabular-nums;
-    font-weight: 600;
-    color: var(--c-hl);
-    padding-top: 0.05em;
-  }
+  li:last-child { padding-bottom: 0; }
 
   &__title {
     display: block;
@@ -499,7 +518,7 @@ body.layout--home { padding-top: 0; }
 
   &__venue {
     display: block;
-    margin-top: 0.2rem;
+    margin-top: 0.15rem;
     font-size: 0.92em;
     color: var(--c-muted);
   }
@@ -507,17 +526,48 @@ body.layout--home { padding-top: 0; }
 
 /* ---------- Publications ---------- */
 
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin: 0 0 0.6rem;
+  padding: 1.1rem 0;
+  border-top: 1px solid var(--c-rule);
+  border-bottom: 1px solid var(--c-rule);
+
+  dt { font-size: 0.85rem; color: var(--c-muted); }
+  dd {
+    margin: 0.15rem 0 0;
+    font-family: $display;
+    font-size: 2.1rem;
+    font-weight: 400;
+    line-height: 1.1;
+    color: var(--c-ink);
+    font-variant-numeric: lining-nums;
+  }
+
+  @media (max-width: 600px) { grid-template-columns: repeat(2, 1fr); }
+}
+
+.archive p.stats__note { font-size: 0.88rem; color: var(--c-muted); margin: 0 0 1rem; }
+
+/* Compact entries: co-authors and venue recede; number, your name and the title stand out. */
 .pub {
   margin: 0;
-  padding: 1rem 0;
+  padding: 0.55rem 0;
   border-top: 1px solid var(--c-rule);
-  line-height: 1.55;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: var(--c-muted);
 
   strong { color: var(--c-ink); font-weight: 600; }
   em { color: var(--c-muted); }
+  a { font-size: 0.92em; }
 }
 h2 + hr + .pub,
-h2 + .pub { border-top: 0; padding-top: 0.25rem; }
+h2 + .pub { border-top: 0; padding-top: 0; }
+
+.archive h2:has(+ hr + .pub) { margin-top: 1.6em; margin-bottom: 0.5em; }
 
 /* ---------- Footer ---------- */
 

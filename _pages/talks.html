@@ -5,34 +5,44 @@ permalink: /talks/
 author_profile: true
 ---
 
-<p>This list includes <strong><u>20 invited</u></strong> and <strong><u>14 contributed</u></strong> presentations.</p>
+{% assign n_invited = site.talks | where: "category", "invited" | size %}
+{% assign n_contributed = site.talks | where: "category", "contributed" | size %}
+<p>This list includes <strong><u>{{ n_invited }} invited</u></strong> and <strong><u>{{ n_contributed }} contributed</u></strong> presentations.</p>
 
 <h2>Invited Talks</h2>
-<ul class="talk-list">
-{% for talk in site.talks reversed %}
-  {% if talk.category == "invited" %}
-    <li>
-      <span class="talk-list__when">{{ talk.date | date: "%Y" }}</span>
-      <span class="talk-list__body">
+{% assign talks_invited = site.talks | where: "category", "invited" | reverse %}
+{% assign years_invited = talks_invited | group_by_exp: "t", "t.date | date: '%Y'" %}
+<div class="talk-years">
+{% for year in years_invited %}
+  <section class="talk-year">
+    <h3 class="talk-year__label">{{ year.name }}</h3>
+    <ul class="talk-list">
+    {% for talk in year.items %}
+      <li>
         <strong class="talk-list__title">{{ talk.title }}</strong>
         <span class="talk-list__venue">{{ talk.venue }}, {{ talk.country }}</span>
-      </span>
-    </li>
-  {% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+  </section>
 {% endfor %}
-</ul>
+</div>
 
 <h2>Contributed Talks</h2>
-<ul class="talk-list">
-{% for talk in site.talks reversed %}
-  {% if talk.category == "contributed" %}
-    <li>
-      <span class="talk-list__when">{{ talk.date | date: "%Y" }}</span>
-      <span class="talk-list__body">
+{% assign talks_contributed = site.talks | where: "category", "contributed" | reverse %}
+{% assign years_contributed = talks_contributed | group_by_exp: "t", "t.date | date: '%Y'" %}
+<div class="talk-years">
+{% for year in years_contributed %}
+  <section class="talk-year">
+    <h3 class="talk-year__label">{{ year.name }}</h3>
+    <ul class="talk-list">
+    {% for talk in year.items %}
+      <li>
         <strong class="talk-list__title">{{ talk.title }}</strong>
         <span class="talk-list__venue">{{ talk.venue }}, {{ talk.country }}</span>
-      </span>
-    </li>
-  {% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+  </section>
 {% endfor %}
-</ul>
+</div>
