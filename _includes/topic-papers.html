@@ -2,7 +2,7 @@
 Lists the publications named in a topic page's front matter, e.g.
 papers:
   - /publication/2022-matins-formalism
-Each entry is the `permalink` of a file in _publications/, shown in the same style as the Publications page.
+Each entry is the `permalink` of a file in _publications/. Same style as the Publications page, without the list number.
 {%- endcomment -%}
 {%- if page.papers -%}
 <section class="topic-refs">
@@ -10,7 +10,16 @@ Each entry is the `permalink` of a file in _publications/, shown in the same sty
 {%- for u in page.papers -%}
 {%- for post in site.publications -%}
 {%- if post.url == u or post.permalink == u -%}
-{% include archive-single.html %}
+{%- assign authors = post.authors | markdownify | remove: '<p>' | remove: '</p>' | strip -%}
+{%- assign lead = authors | split: '</strong>' | first -%}
+{%- assign lead_num = lead | remove: '<strong>' | remove: '.' | strip | plus: 0 -%}
+{%- if lead_num > 0 -%}{%- assign authors = authors | remove_first: lead | remove_first: '</strong>' | strip -%}{%- endif -%}
+<p class="pub">
+{{ authors }}, <strong>{{ post.title }}</strong>, <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}.
+{% if post.paperurl %}<a href="{{ post.paperurl }}">PDF</a>{% endif %}
+{% if post.arxivurl %} | <a href="{{ post.arxivurl }}">arXiv</a>{% endif %}
+{% if post.doi %} | <a href="{{ post.doi }}">DOI</a>{% endif %}
+</p>
 {%- endif -%}
 {%- endfor -%}
 {%- endfor -%}

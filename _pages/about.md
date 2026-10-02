@@ -20,7 +20,7 @@ I am a theoretical and computational astrophysicist and currently a Juan de la C
     <span class="plate__title">The MATINS code</span>
   </a>
   <a class="plate" href="/cme/">
-    <span class="plate__figure"><img src="/files/thumbs/InverseCascade.webp" width="252" height="360" decoding="async" alt="Helicity CME" loading="lazy"></span>
+    <span class="plate__figure"><img src="/files/thumbs/cme-tangled-field.webp" width="360" height="360" decoding="async" alt="3D simulation of a newborn neutron star with a tangled magnetic field" loading="lazy"></span>
     <span class="plate__title">Magnetar formation, helicity, and the chiral magnetic effect</span>
   </a>
   <a class="plate" href="/contrainteos/">
