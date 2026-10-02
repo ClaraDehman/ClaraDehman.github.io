@@ -53,7 +53,7 @@ redirect_from:
 
 <h2 class="cv__h">Recognition</h2>
 <ul class="cv-awards">
-  <li><span class="hl">2026</span> <span>UAInvestiga Award for the Greatest Scientific Impact in Experimental Sciences, University of Alicante <span class="cv-awards__note">(conferred without application)</span></span></li>
+  <li><span class="hl">2026</span> <span>UAInvestiga Award for the Greatest Scientific Impact in Sciences <span class="cv-awards__note">(conferred without application)</span></span></li>
   <li><span class="hl">2026</span> <span>Seal of Excellence, European Commission</span></li>
   <li><span class="hl">2024</span> <span>IEEC Best Doctoral Thesis Award</span></li>
   <li><span class="hl">2024</span> <span>Special Mention, SEA Thesis Award</span></li>
