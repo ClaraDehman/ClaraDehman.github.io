@@ -569,6 +569,38 @@ h2 + .pub { border-top: 0; padding-top: 0; }
 
 .archive h2:has(+ hr + .pub) { margin-top: 1.6em; margin-bottom: 0.5em; }
 
+
+/* ---------- Outreach & Press: two category boxes ---------- */
+
+.boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+
+  @media (max-width: 600px) { grid-template-columns: 1fr; }
+}
+.box {
+  appearance: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4rem;
+  padding: 1.6rem 1.5rem;
+  text-align: left;
+  background: var(--c-surface);
+  border: 1px solid var(--c-rule);
+  border-radius: 14px;
+  cursor: pointer;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover { border-color: var(--c-link); }
+  &[aria-selected="true"] { border-color: var(--c-gold); box-shadow: 0 0 0 3px color-mix(in srgb, var(--c-gold) 25%, transparent); }
+}
+.box__meta { font-family: $text; font-size: 0.85rem; color: var(--c-muted); }
+.box__title { font-family: $display; font-size: 1.7rem; color: var(--c-ink); line-height: 1.1; }
+
+
 /* ---------- Footer ---------- */
 
 .page__footer {

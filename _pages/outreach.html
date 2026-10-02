@@ -8,11 +8,21 @@ author_profile: true
 {% include base_path %}
 
 <p class="archive__item-excerpt">
-  Engaging with the public is a vital part of science. Below are selected outreach activities and interviews, followed by <a href="#press">press coverage</a> of research I contributed to.
+  Engaging with the public is a vital part of science: talks, events and interviews, and press coverage of research I contributed to.
 </p>
 
-<h2 id="outreach" class="archive__item-title">Outreach</h2>
+<div class="boxes" role="tablist" aria-label="Outreach and press">
+  <button role="tab" class="box" id="tab-outreach" aria-controls="panel-outreach" aria-selected="true" data-hash="outreach">
+    <span class="box__title">Outreach</span>
+    <span class="box__meta">Talks, events, interviews and science communication</span>
+  </button>
+  <button role="tab" class="box" id="tab-press" aria-controls="panel-press" aria-selected="false" data-hash="press">
+    <span class="box__title">Press</span>
+    <span class="box__meta">Research covered by NASA, ESA and international media</span>
+  </button>
+</div>
 
+<div id="panel-outreach" role="tabpanel" aria-labelledby="tab-outreach" class="tabpanel">
 <div class="archive__item">
   <h3 class="archive__item-title subhead">Social Media Outreach Coordinator — since Jun 2026</h3>
   <p class="archive__item-excerpt">
@@ -75,9 +85,9 @@ author_profile: true
     </iframe>
   </div>
 </div>
+</div>
 
-<h2 id="press" class="archive__item-title">In the press</h2>
-
+<div id="panel-press" role="tabpanel" aria-labelledby="tab-press" class="tabpanel" hidden>
 <p class="archive__item-excerpt">
   Research I contributed to has been covered by international and local media.
 </p>
@@ -109,3 +119,21 @@ author_profile: true
     <a href="https://phys.org/news/2022-12-astronomers-outburst-young-magnetar-swift.html">Phys.org</a>.
   </p>
 </div>
+</div>
+
+<script>
+(function () {
+  var tabs = document.querySelectorAll('[role="tab"]');
+  function show(id) {
+    tabs.forEach(function (t) {
+      var on = t.getAttribute('aria-controls') === id;
+      t.setAttribute('aria-selected', on);
+      document.getElementById(t.getAttribute('aria-controls')).hidden = !on;
+    });
+  }
+  tabs.forEach(function (t) {
+    t.addEventListener('click', function () { show(t.getAttribute('aria-controls')); history.replaceState(null, '', '#' + t.dataset.hash); });
+  });
+  if (location.hash === '#press') show('panel-press');
+})();
+</script>
