@@ -4,6 +4,7 @@ date: 2020-12-03
 type: "Talk"
 venue: "Stars & Compact Objects Meeting, Flatiron Institute, New York City"
 country: USA
+city: New York
 category: invited
 collection: talks
 ---

@@ -5,9 +5,67 @@ permalink: /talks/
 author_profile: true
 ---
 
+{% comment %}
+  Everything below is computed from the talk files in _talks/.
+  Countries: online talks and talks whose venue says "Canceled" are not counted.
+{% endcomment %}
 {% assign n_invited = site.talks | where: "category", "invited" | size %}
 {% assign n_contributed = site.talks | where: "category", "contributed" | size %}
-<p>This list includes <strong><u>{{ n_invited }} invited</u></strong> and <strong><u>{{ n_contributed }} contributed</u></strong> presentations.</p>
+{% assign country_str = "" %}
+{% for t in site.talks %}
+  {% assign c = t.country | strip %}
+  {% assign lc = c | downcase %}
+  {% unless lc == "online" or c == "" or t.venue contains "Canceled" %}
+    {% assign country_str = country_str | append: c | append: "|" %}
+  {% endunless %}
+{% endfor %}
+{% assign countries = country_str | split: "|" | uniq | sort %}
+
+<dl class="stats">
+  <div><dt>Talks</dt><dd>{{ site.talks.size }}</dd></div>
+  <div><dt>Invited</dt><dd>{{ n_invited }}</dd></div>
+  <div><dt>Contributed</dt><dd>{{ n_contributed }}</dd></div>
+  <div><dt>Countries</dt><dd>{{ countries.size }}</dd></div>
+</dl>
+
+<figure class="talk-map" aria-labelledby="talk-map-caption">
+  <div class="talk-map__canvas">
+    <img src="{{ base_path }}/files/talks-map.webp" width="1335" height="703" alt="" decoding="async">
+    {% comment %} One star per place: the talk's city if known on the map, otherwise its country. {% endcomment %}
+    {% assign place_str = "" %}
+    {% for t in site.talks %}
+      {% assign lc = t.country | downcase | strip %}
+      {% unless lc == "online" or lc == "" or t.venue contains "Canceled" %}
+        {% if t.city and site.data.talk_map.cities[t.city] %}
+          {% assign place_str = place_str | append: "city:" | append: t.city | append: "|" %}
+        {% else %}
+          {% assign place_str = place_str | append: "country:" | append: t.country | append: "|" %}
+        {% endif %}
+      {% endunless %}
+    {% endfor %}
+    {% assign places = place_str | split: "|" | uniq %}
+    {% for place in places %}
+      {% assign kind = place | split: ":" | first %}
+      {% assign name = place | remove_first: kind | remove_first: ":" %}
+      {% assign n_here = 0 %}{% assign label = name %}
+      {% if kind == "city" %}
+        {% assign pos = site.data.talk_map.cities[name] %}
+        {% for t in site.talks %}{% if t.city == name %}{% unless t.venue contains "Canceled" %}{% assign n_here = n_here | plus: 1 %}{% assign label = name | append: ", " | append: t.country %}{% endunless %}{% endif %}{% endfor %}
+      {% else %}
+        {% assign pos = site.data.talk_map.countries[name] %}
+        {% for t in site.talks %}{% if t.country == name %}{% unless t.venue contains "Canceled" %}{% if t.city and site.data.talk_map.cities[t.city] %}{% else %}{% assign n_here = n_here | plus: 1 %}{% endif %}{% endunless %}{% endif %}{% endfor %}
+      {% endif %}
+      {% if pos %}
+        <span class="talk-map__star" style="left: {{ pos.x }}%; top: {{ pos.y }}%;" title="{{ label }}: {{ n_here }} talk{% if n_here != 1 %}s{% endif %}">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.5l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 8.7l7.1-.6z"/></svg>
+        </span>
+      {% endif %}
+    {% endfor %}
+  </div>
+  <figcaption id="talk-map-caption">
+    {% for c in countries %}{% assign n_here = 0 %}{% for t in site.talks %}{% if t.country == c %}{% unless t.venue contains "Canceled" %}{% assign n_here = n_here | plus: 1 %}{% endunless %}{% endif %}{% endfor %}<span>{{ c }} <b>{{ n_here }}</b></span>{% endfor %}
+  </figcaption>
+</figure>
 
 <h2>Invited Talks</h2>
 {% assign talks_invited = site.talks | where: "category", "invited" | reverse %}

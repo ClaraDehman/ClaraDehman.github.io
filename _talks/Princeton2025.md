@@ -4,6 +4,7 @@ date: 2025-05-15
 type: "Talk"
 venue: "Extreme Physics of Neutron Star Interiors, Princeton University, New Jersey"
 country: USA
+city: Princeton
 category: invited
 collection: talks
 ---

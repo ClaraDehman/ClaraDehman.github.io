@@ -601,6 +601,54 @@ h2 + .pub { border-top: 0; padding-top: 0; }
 .box__title { font-family: $display; font-size: 1.7rem; color: var(--c-ink); line-height: 1.1; }
 
 
+
+/* ---------- Talks map ---------- */
+
+.talk-map {
+  max-width: 720px;
+  margin: 1.25rem 0 0.25rem;
+
+  &__canvas {
+    position: relative;
+    aspect-ratio: 1335 / 703;
+
+    img { display: block; width: 100%; height: 100%; }
+  }
+
+  &__star {
+    position: absolute;
+    width: clamp(14px, 2.4%, 22px);
+    aspect-ratio: 1;
+    transform: translate(-50%, -50%);
+    cursor: default;
+
+    svg {
+      width: 100%;
+      height: 100%;
+      fill: var(--c-gold);
+      filter: drop-shadow(0 0 4px rgba(233, 185, 73, 0.75));
+      transition: transform 0.15s ease;
+    }
+    &:hover svg { transform: scale(1.35); }
+  }
+
+  figcaption {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1.1rem;
+    margin-top: 0.9rem;
+    font-family: $text;
+    font-size: 0.88rem;
+    color: var(--c-muted);
+
+    b { color: var(--c-hl); font-weight: 600; }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .talk-map__star svg { transition: none; }
+}
+
 /* ---------- Footer ---------- */
 
 .page__footer {

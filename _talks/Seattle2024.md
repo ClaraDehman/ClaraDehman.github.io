@@ -4,6 +4,7 @@ date: 2024-12-12
 type: "Review Talk"
 venue: "IReNA-INT Joint Workshop on Thermal and Magnetic Evolution, University of Washington, Washington"
 country: USA
+city: Seattle
 category: invited
 collection: talks
 ---
