@@ -8,9 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-<p class="intro">
-I am a theoretical and computational astrophysicist and currently a Juan de la Cierva Fellow in Spain. My research focuses on neutron stars, compact stellar remnants whose densities are so extreme that a teaspoon of their material would exceed the mass of a mountain. These objects are observed across the electromagnetic spectrum, yet fully understanding their behavior requires modeling the complex interplay between magnetic fields, heat transport, and ultra-dense matter in their interiors. To investigate these extreme physical regimes, I employ large-scale, high-performance numerical simulations.
-</p>
 
 <h2 id="research" class="section-title">Research highlights</h2>
 

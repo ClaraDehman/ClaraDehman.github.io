@@ -176,7 +176,7 @@ hr { border: 0; border-top: 1px solid var(--c-rule); }
   }
 
   &__lede {
-    max-width: 24em;
+    max-width: 27em;
     margin: 0 0 0.9rem;
     font-size: clamp(1.15rem, 1.8vw, 1.45rem);
     line-height: 1.45;
@@ -313,6 +313,7 @@ body.layout--home { padding-top: 0; }
   padding-bottom: 0;
   scroll-margin-top: 1.5rem;
 }
+.page__content .section-title:first-child { margin-top: 0; }
 
 .plates {
   display: grid;
