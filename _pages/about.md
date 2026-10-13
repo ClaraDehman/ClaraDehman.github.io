@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "Research Highlights"
+description: "Clara Dehman, theoretical and computational astrophysicist. I develop large-scale simulations of how magnetic fields and heat evolve inside neutron stars, and how that shapes what our telescopes observe."
 layout: home
 author_profile: true
 redirect_from: 
