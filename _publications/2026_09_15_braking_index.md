@@ -5,7 +5,7 @@ category: press
 permalink: /publication/2026-braking-index
 excerpt: 'Spontaneous wandering of the magnetic axis in pulsars: 3D magneto-thermal simulations and the imprint on braking indices'
 date: 2026-09-15
-venue: 'Submitted for publication'
+venue: 'In press, A\&A'
 paperurl: '/files/DehmanVigano2026.pdf'
 arxivurl: 'https://arxiv.org/abs/2609.17436'
 authors: "<strong>24. </strong> <strong><u>C. Dehman</u></strong>, D. Viganò"
