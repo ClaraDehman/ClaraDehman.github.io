@@ -1,7 +1,7 @@
 ---
 title: "Spontaneous wandering of the magnetic axis in pulsars: 3D magneto-thermal simulations and the imprint on braking indices"
 collection: publications
-category: in press
+category: In Press
 permalink: /publication/2026-braking-index
 excerpt: 'Spontaneous wandering of the magnetic axis in pulsars: 3D magneto-thermal simulations and the imprint on braking indices'
 date: 2026-09-15
