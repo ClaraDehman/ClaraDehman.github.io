@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Clara Dehman"
 # title_separator          : "-"
 name                     : "Clara Dehman"
-# description              : "Astrophysicist | Juan de la Cierva Fellow"
+# description              : "Astrophysicist | Research Associate"
 url                      : https://ClaraDehman.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ClaraDehman/ClaraDehman.github.io"
@@ -28,8 +28,8 @@ author:
   name             : "Clara Dehman"
   pronouns         : "She/her · born 1996"  
   bio              : "Research Associate"
-  employer         : "Anton Pannekoek Institute"
-  location         : "Amsterdam, Netherlands"
+  employer         : "Anton Pannekoek Institute for Astronomy, University of Amsterdam"
+  location         : "Amsterdam, The Netherlands"
   uri              : #"https://cvnet.cpd.ua.es/curriculum-breve/es/dehman-clara/697657"
   email            : "c.dehman@uva.nl" 
 
@@ -135,7 +135,7 @@ atom_feed:
 
 
 # SEO Related
-google_site_verification :
+# (google_site_verification is set at the top of this file)
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
