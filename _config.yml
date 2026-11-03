@@ -27,11 +27,11 @@ author:
   avatar           : "profile.png"
   name             : "Clara Dehman"
   pronouns         : "She/her · born 1996"  
-  bio              : "Juan de la Cierva Fellow"
-  # location         : "Spain"
-  employer         : "Univ. of Alicante · Spain"
+  bio              : "Research Associate"
+  # location         : "Netherlands"
+  employer         : "Anton Pannekoek Institute · Netherlands"
   uri              : #"https://cvnet.cpd.ua.es/curriculum-breve/es/dehman-clara/697657"
-  email            : "clara.dehman@ua.es" 
+  email            : "c.dehman@uva.nl" 
 
   # Academic websites
   academia         : # URL
