@@ -48,7 +48,7 @@ redirect_from:
     <span class="cv-timeline__what"><strong>Visiting PhD Fellow</strong>, Nordita, Stockholm</span>
   </li>
   <li class="cv-timeline__item">
-    <span class="cv-timeline__when">2019 – 2023</span>
+    <span class="cv-timeline__when">2020 – 2023</span>
     <span class="cv-timeline__what"><strong>PhD in Physics</strong>, Autonomous University of Barcelona &amp; ICE-CSIC</span>
     <span class="cv-timeline__note">Cum Laude, International Mention; developed the 3D code MATINS</span>
   </li>
