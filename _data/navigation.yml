@@ -6,6 +6,9 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "Open Science"
+    url: /open-science/
+
   - title: "Talks"
     url: /talks/
 
