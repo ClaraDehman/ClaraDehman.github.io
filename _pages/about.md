@@ -13,8 +13,8 @@ redirect_from:
 <h2 id="research" class="section-title">Research highlights</h2>
 
 <div class="plates">
-  <a class="plate plate--feature" href="/matins/">
-    <span class="plate__figure plate__figure--labelled"><img src="/files/thumbs/magnetothermal-3d.webp" width="1414" height="1135" decoding="async" alt="Illustration of a neutron star cut open, with tangled magnetic field lines inside and around it and red hot regions on its surface" loading="lazy"></span>
+  <a class="plate" href="/matins/">
+    <span class="plate__figure"><img src="/files/thumbs/magnetothermal-3d.webp" width="1414" height="1135" decoding="async" alt="Illustration of a neutron star cut open, with tangled magnetic field lines inside and around it and red hot regions on its surface" loading="lazy"></span>
     <span class="plate__title">3D magneto-thermal evolution of neutron stars</span>
   </a>
   <a class="plate" href="/cme/">
