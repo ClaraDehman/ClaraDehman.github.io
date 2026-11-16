@@ -629,6 +629,7 @@ h2 + .pub { border-top: 0; padding-top: 0; }
   &__star {
     position: absolute;
     width: clamp(12px, 2.3%, 20px);
+    height: auto;
     aspect-ratio: 1;
     transform: translate(-50%, -50%);
     cursor: default;
@@ -962,18 +963,29 @@ h2 + .pub { border-top: 0; padding-top: 0; }
 }
 
 /* ---------- Open Science: one card per code ---------- */
-.oss { display: grid; gap: 1.5rem; margin: 1.8rem 0 1rem; max-width: 52rem; }
+.oss { display: grid; gap: 1.75rem; margin: 1.8rem 0 1rem; max-width: 54rem; }
 
 .oss-card {
+  position: relative;
   display: grid;
-  grid-template-columns: minmax(200px, 17rem) 1fr;
-  gap: 1.75rem;
-  padding: 1.6rem;
-  background: var(--c-surface);
+  grid-template-columns: minmax(210px, 18rem) 1fr;
+  gap: 2rem;
+  padding: 1.75rem;
+  background: linear-gradient(160deg, color-mix(in srgb, var(--c-field) 7%, var(--c-surface)) 0%, var(--c-surface) 55%);
   border: 1px solid var(--c-rule);
-  border-radius: 16px;
+  border-radius: 18px;
+  overflow: hidden;
 
-  @media (max-width: 700px) { grid-template-columns: 1fr; gap: 1.2rem; padding: 1.2rem; }
+  /* thin gold accent along the top edge */
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--c-gold), color-mix(in srgb, var(--c-gold) 0%, transparent) 70%);
+  }
+
+  @media (max-width: 700px) { grid-template-columns: 1fr; gap: 1.3rem; padding: 1.3rem; }
 }
 
 .oss-card__figure {
@@ -982,10 +994,11 @@ h2 + .pub { border-top: 0; padding-top: 0; }
   justify-content: center;
   align-self: start;
   aspect-ratio: 4 / 3;
-  padding: 16px;
+  padding: 18px;
   background: var(--c-plate);
   border: 1px solid var(--c-rule);
-  border-radius: 12px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.55);
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 
   img { width: 100%; height: 100%; object-fit: contain; }
@@ -993,15 +1006,23 @@ h2 + .pub { border-top: 0; padding-top: 0; }
   @media (max-width: 700px) { aspect-ratio: 8 / 3; }
 }
 
-.archive .oss-card__title { margin: 0; padding: 0; border: 0; font-size: 1.9rem; line-height: 1.1; }
-.archive p.oss-card__full { margin: 0.3rem 0 0; font-size: 0.92rem; color: var(--c-muted); letter-spacing: 0.01em; }
-.archive p.oss-card__text { margin: 0.9rem 0 0; line-height: 1.6; color: var(--c-ink); }
+.archive p.oss-card__kicker {
+  margin: 0 0 0.35rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--c-gold);
+}
+.archive .oss-card__title { margin: 0; padding: 0; border: 0; font-size: 2.2rem; line-height: 1.05; letter-spacing: 0.01em; }
+.archive p.oss-card__full { margin: 0.35rem 0 0; font-size: 0.92rem; color: var(--c-muted); letter-spacing: 0.01em; }
+.archive p.oss-card__text { margin: 1rem 0 0; line-height: 1.65; color: var(--c-ink); }
 
 .oss-card__tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.45rem;
-  margin: 0.9rem 0 0;
+  margin: 1rem 0 0;
   padding: 0;
   list-style: none;
 
@@ -1014,19 +1035,27 @@ h2 + .pub { border-top: 0; padding-top: 0; }
     border-radius: 999px;
   }
 }
+.archive p.oss-card__team { margin: 0.8rem 0 0; font-size: 0.9rem; color: var(--c-muted); }
 
-.oss-card .topic-links { margin-top: 1.1rem; }
+.oss-card .topic-links { margin-top: 1.2rem; }
 .oss-card .topic-links a { font-size: 0.92rem; padding: 0.55em 1.05em; }
 
 .oss-card__cite {
-  margin-top: 1.3rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--c-rule);
+  margin-top: 1.4rem;
+  padding: 0.9rem 1.1rem;
+  background: color-mix(in srgb, var(--c-night) 55%, transparent);
+  border: 1px solid var(--c-rule);
+  border-radius: 12px;
   font-size: 0.9rem;
 
-  ul { margin: 0.35rem 0 0; padding: 0; list-style: none; }
-  li { margin: 0.2rem 0; color: var(--c-ink); }
-  a { margin-left: 0.3em; }
+  ul { margin: 0.4rem 0 0; padding: 0; list-style: none; }
+  li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2rem 0.6rem; margin: 0.25rem 0; }
+  a { color: var(--c-ink); text-decoration-color: color-mix(in srgb, var(--c-link) 50%, transparent); }
+  a:hover { color: var(--c-link-hover); }
 }
-.archive p.oss-card__cite-h { margin: 0; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--c-muted); }
-.oss-card__what { color: var(--c-muted); }
+.archive p.oss-card__cite-h { margin: 0; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--c-muted); }
+.oss-card__what {
+  font-size: 0.78rem;
+  color: var(--c-muted);
+  &::before { content: "· "; }
+}
