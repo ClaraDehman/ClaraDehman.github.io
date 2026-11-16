@@ -376,19 +376,8 @@ body.layout--home { padding-top: 0; }
   }
 }
 
-/* Tile with a small corner label (e.g. "Illustration") */
-.plate__figure.plate__figure--labelled { position: relative; }
+/* Feature tile whose image needs less inner padding */
 .plate--feature .plate__figure.plate__figure--labelled { padding: 8px 12px; }
-.plate__badge {
-  position: absolute;
-  right: 10px;
-  bottom: 8px;
-  font-family: $text;
-  font-size: 0.7rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #7d879b;
-}
 
 /* ---------- Sidebar / author ---------- */
 
